@@ -1,4 +1,27 @@
 ---
 label: Home Design
 hide_body: true
-fields: []
+fields:
+- name: gallery_section
+  type: field_group
+  config: {}
+  fields:
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  - name: body_text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Body Text
+  - name: gallery
+    type: image_gallery
+    config: {}
+    label: Gallery
+  label: Gallery Section
