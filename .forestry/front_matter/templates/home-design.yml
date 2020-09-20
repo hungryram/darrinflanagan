@@ -25,5 +25,65 @@ fields:
     config: {}
     label: Gallery
   label: Gallery Section
+- name: membership_options
+  type: field_group
+  config: {}
+  fields:
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  - name: body_text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Body Text
+  - name: options
+    type: field_group_list
+    fields:
+    - name: heading
+      type: text
+      config:
+        required: false
+      label: Heading
+    - name: subtitle
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: markdown
+      label: Subtitle
+    - name: details
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: markdown
+      label: Details
+    - name: price
+      type: text
+      config:
+        required: false
+      label: Price
+    - name: link
+      type: text
+      config:
+        required: false
+      label: Link
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Options
+  label: Membership Options
 pages:
 - data/home.yaml
