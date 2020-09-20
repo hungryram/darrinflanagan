@@ -11,3 +11,60 @@ gallery_section:
   - "/uploads/img_0190-1.jpg"
   - "/uploads/img_0195.jpg"
   - "/uploads/img_0194.jpg"
+membership_options:
+  heading: Membership Options
+  body_text: |-
+    Tired of noisy coffee shops or being distracted at home? Join us at Launch and Go, where you can experience all the amenities of your own office on your schedule with none of the stress.
+
+    **To get started, select a membership level and create your account.** Free Community Member accounts are available to everyone and can be used to purchase Day Passes or book a space on-demand without the monthly membership.
+  options:
+  - heading: Hot Desk
+    details: |-
+      INCLUDED
+
+      * **Print 125 B&W, 25 ColorA la carte: B&W 5¢. Color 20¢.**
+      * **Mail & Package Service**
+      * **4 Meeting room hours/mo**
+    price: "$150/mo"
+    link: https://members.launchandgoworkspace.com/account/memberships/change?mcids=3632
+    subtitle: |-
+      Use any available desk in the common area
+
+      _Access 24/7_
+  - heading: Dedicated Desk
+    subtitle: |-
+      A permanent desk just for you in the common area
+
+      _Access 24/7_
+    details: |-
+      INCLUDED
+
+      * **Print 125 B&W, 25 ColorA la carte: B&W 5¢. Color 20¢.**
+      * **Mail & Package ServiceUse as your official business address**
+      * **4 Meeting room hours/mo**
+    price: "$200/mo"
+    link: https://members.launchandgoworkspace.com/account/memberships/change?mcids=3633
+  - heading: Private Office
+    details: |-
+      INCLUDED
+
+      * **Print 125 B&W, 25 ColorA la carte: B&W 5¢, Color 20¢**
+      * **Mail & Package ServiceUse as your official business address**
+      * **4 Meeting room hours/mo**
+    price: "$450-$900/mo"
+    link: https://members.launchandgoworkspace.com/account/memberships/change?mcids=4071
+    subtitle: |-
+      A furnished, lockable office space for 1-3 people
+
+      _Access 24/7_
+  - heading: Day Pass
+    subtitle: |-
+      Use any available desk in the common area
+
+      _1 day access, M-F, 9am-5pm_
+    details: |-
+      INCLUDED
+
+      * **Day Pass Pack (5-20 passes) available starting at $50. ($10/day)**
+    price: "$15/day"
+    link: https://members.launchandgoworkspace.com/account/memberships/change?mcids=3631
