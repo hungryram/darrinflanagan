@@ -25,3 +25,5 @@ fields:
     config: {}
     label: Gallery
   label: Gallery Section
+pages:
+- data/home.yaml
