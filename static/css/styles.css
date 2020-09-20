@@ -1,0 +1,99 @@
+/* GLOBAL */
+
+.big-section {
+    padding: 6rem 1.5rem;
+}
+
+a.primary-link {
+    color: #F4B221;
+    position: relative;
+}
+
+a.primary-btn {
+    background: #F4B221;
+    color: #fff;
+    padding: 15px 30px;
+}
+
+div.line {
+    background: #F4B221;
+    width: 100px;
+    height: 3px;
+    margin: 10px 0;
+}
+
+body a {
+    font-family: 'Lato', sans-serif;
+}
+
+body h1.title,
+body h2.title,
+body h3.title,
+body h4.title,
+body h5.title,
+body h6.title {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 40px;
+}
+
+.title span {
+    color: #F4B221;
+}
+
+body h1.subtitle,
+body h2.subtitle,
+body h3.subtitle,
+body h4.subtitle,
+body h5.subtitle,
+body h6.subtitle {
+    font-family: 'Lato', sans-serif;
+}
+
+body p,
+li {
+    font-family: 'Lato', sans-serif;
+    color: #666666;
+    font-size: inherit;
+}
+
+div.banner {
+    background: #f2f2f2;
+    padding: 20px 10px;
+}
+
+/* NAVBAR */
+
+a.navbar-item img {
+    max-height: 3rem;
+}
+
+/* HERO BANNER */
+
+div.hero-foot > .container {
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: rgb(33 33 33 / 90%);
+}
+
+div.hero-foot a.primary-link:after {
+    content: "";
+    position: absolute;
+    background: #F4B221;
+    width: 100%;
+    height: 1px;
+    top: 12px;
+    left: 100px;
+}
+
+a.hero-btn {
+    background: #F4B221;
+    padding: 15px 30px;
+    color: #000000;
+}
+
+/* ABOUT */
+
+div.about__container ul {
+    columns: 2;
+}

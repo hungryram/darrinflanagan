@@ -1,0 +1,54 @@
+<nav class="navbar is-transparent" role="navigation" aria-label="main navigation" style="border-bottom:2px solid rgba(35,31,32,.05);padding: 20px 0;">
+    <div class="container">  
+    <div class="navbar-brand">
+      
+        <a class="navbar-item" href="{{ .Site.BaseURL }}">
+            <img src="/uploads/launchandgoworkspace.png" alt="Logo">
+        </a>
+    
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+    
+      <div id="navbarMenuHeroC" class="navbar-menu">
+        <div class="navbar-end">
+          {{ $currentPage := . }}
+          {{ range .Site.Menus.main }}
+          {{ if .HasChildren }}
+              <div class="navbar-item has-dropdown is-hoverable main-drop">
+                  <a class="navbar-link" href="javascript:;">
+                      {{ .Name }}
+                  </a>
+                  <!-- First Level Dropdown -->
+                      <div class="navbar-dropdown">
+                          {{ range .Children }}
+                              
+                              <a class="navbar-item {{ if .HasChildren }}navbar-link first-drop is-hoverable{{ end }}" href="{{ if .HasChildren }}javascript:;{{ else }}{{ .URL }}{{ end }}">
+                              {{ .Name }}
+                              </a>
+                          
+                          {{ end }}
+                    </div>
+                    <!-- End first level Dropdown -->
+              </div>
+              {{ else }} <!-- Else No Drop Down-->
+              <a href="{{ .URL }}" class="navbar-item">{{ .Name }}</a>
+          {{ end }}
+          {{ end }} <!-- End range menu -->
+        </div>
+    
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="buttons">
+              <a href="/contact" class="button demo">
+                Contact
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </nav>
