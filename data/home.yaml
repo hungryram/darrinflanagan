@@ -139,6 +139,10 @@ process:
     started quickly.
   image: "/uploads/how_it_works_book.png"
   steps:
+  - heading: wer
+    body: sdfsdf
+  - heading: Create Your Account
+    body: estser
   - heading: Book Your Space
     body: Select the day you'd like to grab a Hot Desk or Meeting Room.
   - heading: Create Your Account
