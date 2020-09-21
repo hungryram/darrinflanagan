@@ -1,7 +1,11 @@
 
 html {
     scroll-behavior: smooth;
-  }
+}
+
+body {
+    overflow: hidden;
+}
 /* GLOBAL */
 
 .big-section {
