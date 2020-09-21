@@ -133,3 +133,15 @@ introduction:
   - 24/7 Access with Secure Keyless Entry
   - 'Staffed Hours: 9am-5pm, Mon-Fri'
   - Online Dashboard & Free App
+process:
+  heading: Our Easy **3 Step** Process
+  body: Launch and Go Workspace focuses on an easy 3 step process to help you get
+    started quickly.
+  image: "/uploads/how_it_works_book.png"
+  steps:
+  - heading: Book Your Space
+    body: Select the day you'd like to grab a Hot Desk or Meeting Room.
+  - heading: Create Your Account
+    body: Manage all your bookings & account options in your dashboard
+  - heading: Add Payment
+    body: Checkout online & you're done. It's that easy.
