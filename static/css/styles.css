@@ -67,13 +67,14 @@ a.navbar-item img {
     max-height: 3rem;
 }
 
+
 /* HERO BANNER */
 
 div.hero-foot > .container {
     padding: 20px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    background: rgb(33 33 33 / 90%);
+    /* background: rgb(33 33 33 / 90%); */
 }
 
 div.hero-foot a.primary-link:after {
@@ -104,6 +105,13 @@ header.card-header {
     background: #00697A;
 }
 
+/* FOOTER */
+
+footer.footer {
+    background: #0E0E0C;
+    margin-top: 100px;
+}
+
 footer.card-footer p {
     background: #f4f4f4;
 }
@@ -111,4 +119,23 @@ footer.card-footer p {
 footer.card-footer a {
     background: #F4B221;
     color: #fff;
+}
+
+
+.footer-form input.input,
+.footer-form textarea.textarea {
+    background: transparent;
+    border-bottom: 1px solid white;
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+    border-radius: 0;
+    color: #fff;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+.footer-form input.input::placeholder,
+.footer-form textarea.textarea::placeholder {
+    color: rgb(128, 128, 128);
 }

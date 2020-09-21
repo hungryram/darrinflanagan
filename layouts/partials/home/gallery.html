@@ -1,15 +1,19 @@
-<div class="big-section pb-6">
+<div class="big-section pb-3">
     <div class="container">
         <div class="columns">
-            <div class="column">
+            <div class="column is-three-fifths">
                 <h2 class="title is-3">{{ .Site.Data.home.gallery_section.heading }}</h2>
                 <p>{{ .Site.Data.home.gallery_section.body_text | markdownify }}</p>
             </div>
         </div>
     </div>
 </div>
-<div class="gallery">
-{{ range $.Site.Data.home.gallery_section.gallery }}
-    <img src="{{ . }}" alt="">
-{{ end }}
+<div class="section">
+    <div class="container">
+        <div class="gallery">
+            {{ range $.Site.Data.home.gallery_section.gallery }}
+                <img src="{{ . }}" alt="Launch and Go Workspace" class="mx-2">
+            {{ end }}
+            </div>
+    </div>
 </div>
