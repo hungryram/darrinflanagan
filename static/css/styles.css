@@ -97,3 +97,18 @@ a.hero-btn {
 div.about__container ul {
     columns: 2;
 }
+
+/* MEMBER OPTIONS */
+
+header.card-header {
+    background: #00697A;
+}
+
+footer.card-footer p {
+    background: #f4f4f4;
+}
+
+footer.card-footer a {
+    background: #F4B221;
+    color: #fff;
+}

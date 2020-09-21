@@ -1,0 +1,36 @@
+{{ $memberOptions := .Site.Data.home.membership_options }}
+<div class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column">
+                <h1 class="title is-4">{{ .Site.Data.home.membership_options.heading }}</h1>
+                <p>{{ .Site.Data.home.membership_options.body_text | markdownify }}</p>
+            </div>
+        </div>
+        <div class="columns is-multiline">
+            {{ range $memberOptions.options }}
+                <div class="column is-3">
+                    <div class="card" style="height:100%;position:relative;">
+                        <header class="card-header">
+                          <p class="card-header-title has-text-white">
+                            {{ .heading }}
+                          </p>
+                        </header>
+                        <div class="card-content">
+                          <div class="content" style="height:100%">
+                            <p class="is-size-7">{{ .subtitle | markdownify }}</p>
+
+                            <p>{{ .details | markdownify }}</p>
+                          </div>
+                        </div>
+
+                      </div>
+                      <footer class="card-footer">
+                        <p class="card-footer-item has-text-weight-bold">{{ .price }}</p>
+                        <a href="{{ .link }}" class="card-footer-item">Select</a>
+                      </footer>
+                </div>
+            {{ end }}
+        </div>
+    </div>
+</div>

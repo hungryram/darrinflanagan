@@ -1,5 +1,15 @@
+<div class="big-section pb-6">
+    <div class="container">
+        <div class="columns">
+            <div class="column">
+                <h2 class="title is-3">{{ .Site.Data.home.gallery_section.heading }}</h2>
+                <p>{{ .Site.Data.home.gallery_section.body_text | markdownify }}</p>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="gallery">
-    <div>your content</div>
-    <div>your content</div>
-    <div>your content</div>
-  </div>
+{{ range $.Site.Data.home.gallery_section.gallery }}
+    <img src="{{ . }}" alt="">
+{{ end }}
+</div>
