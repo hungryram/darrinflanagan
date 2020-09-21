@@ -8,6 +8,10 @@ sections:
   path: data/profile.yaml
   label: Profile
 - type: document
+  path: data/appearamce.yaml
+  label: Appearance
+  match: "**/*"
+- type: document
   path: data/home.yaml
   label: Home Design
 - type: directory
