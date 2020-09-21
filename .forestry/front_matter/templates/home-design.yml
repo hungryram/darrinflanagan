@@ -87,6 +87,35 @@ fields:
       labelField: 
     label: Steps
   label: Process
+- name: banner
+  type: field_group
+  config: {}
+  fields:
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  - name: body
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Body
+  - name: button_link
+    type: text
+    config:
+      required: false
+    label: Button Link
+  - name: button_label
+    type: text
+    config:
+      required: false
+    label: Button Label
+  label: Banner
 - name: gallery_section
   type: field_group
   config: {}

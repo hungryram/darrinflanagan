@@ -145,3 +145,9 @@ process:
     body: Manage all your bookings & account options in your dashboard
   - heading: Add Payment
     body: Checkout online & you're done. It's that easy
+banner:
+  heading: A la Carte and Memberships Available
+  body: Book a room or grab a Day Pass without a membership. If you'd like to become
+    a member, see which option works for you.
+  button_link: https://members.launchandgoworkspace.com/
+  button_label: See Options

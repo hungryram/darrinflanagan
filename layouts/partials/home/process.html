@@ -1,4 +1,5 @@
 {{ $process := .Site.Data.home.process }}
+{{ $banner := .Site.Data.home.banner }}
 <div class="big-section" style="background: #FAFAFA">
     <div class="container">
         <div class="columns">
@@ -20,16 +21,24 @@
         </div>
         <div class="columns">
             <div class="column has-text-centered">
-                <img src="uploads/how_it_works_book.png" alt="" width="700">
+                {{ if $process.image }}
+                <img src="{{ $process.image }}" alt="3 step process launch and go workspace" width="700">
+                {{ end }}
             </div>
         </div>
         <div class="columns is-vcentered banner mt-6">
             <div class="column is-8">
-                    <h2 class="title is-3 has-text-white">A la Carte and Memberships Available</h2>
-                    <p class="has-text-white">Book a room or grab a Day Pass without a membership. If you'd like to become a member, see which option works for you.</p>
+                    {{ if $banner.heading }}
+                    <h2 class="title is-3 has-text-white">{{ $banner.heading }}</h2>
+                    {{ end }}
+                    {{ if $banner.body }}
+                    <p class="has-text-white">{{ $banner.body | markdownify }}</p>
+                    {{ end }}
             </div>
             <div class="column has-text-centered">
-                <a href="" class="primary-btn">Learn More</a>
+                {{ if $banner.button_link }}
+                <a href="{{ $banner.button_link }}" class="primary-btn">{{ $banner.button_label }}</a>
+                {{ end }}
             </div>
         </div>
     </div>

@@ -26,6 +26,10 @@ body a {
     font-family: 'Mukta', sans-serif;
 }
 
+p a {
+    color: #00697A;
+}
+
 body h1.title,
 body h2.title,
 body h3.title,
