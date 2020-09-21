@@ -85,5 +85,61 @@ fields:
       labelField: 
     label: Options
   label: Membership Options
+- name: bookable_spaces
+  type: field_group
+  config: {}
+  fields:
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  - name: body
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Body
+  - name: bookable_spaces
+    type: field_group_list
+    fields:
+    - name: heading
+      type: text
+      config:
+        required: false
+      label: Heading
+    - name: subtitle
+      type: text
+      config:
+        required: false
+      label: Subtitle
+    - name: details
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: markdown
+      label: Details
+    - name: price
+      type: text
+      config:
+        required: false
+      label: Price
+    - name: link
+      type: text
+      config:
+        required: false
+      label: Link
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Bookable Spaces
+  label: Bookable Spaces
 pages:
 - data/home.yaml
