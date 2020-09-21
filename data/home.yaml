@@ -68,3 +68,46 @@ membership_options:
       * **Day Pass Pack (5-20 passes) available starting at $50. ($10/day)**
     price: "$15/day"
     link: https://members.launchandgoworkspace.com/account/memberships/change?mcids=3631
+bookable_spaces:
+  heading: Our Bookable Spaces
+  body: ''
+  bookable_spaces:
+  - heading: Meeting Room
+    subtitle: |-
+      Perfect for meeting clients
+
+      _Seats up to 8_
+    price: "$25/hr"
+    link: https://members.launchandgoworkspace.com/calendar
+    details: |-
+      INCLUDED
+
+      * **High Speed 1 Gbps WiFi Internet**
+      * **Large Flat Screen 4k TV**
+      * **HDMI Cable**
+      * **Large Wall-mounted Whiteboard**
+  - details: |-
+      INCLUDED
+
+      * **4 Microphones and Headsets**
+      * **Mixing Board**
+      * **High Speed 1 Gbps WiFi Internet**
+    heading: Podcast Studio
+    subtitle: |-
+      3 pricing options available
+
+      _Seats up to 4_
+    price: "$35/hr"
+    link: https://members.launchandgoworkspace.com/calendar
+  - details: |-
+      INCLUDED
+
+      * **Flexible scheduling optionsWeekend events or evening meetups, we’ve got you covered.**
+      * **Staffing availableAs needed. Additional fee applies.**
+    heading: Event Space
+    price: "$75/hr"
+    link: https://members.launchandgoworkspace.com/calendar
+    subtitle: |-
+      Perfect for parties & meetups
+
+      _Seats up to 60_
