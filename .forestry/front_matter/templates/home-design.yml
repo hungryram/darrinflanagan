@@ -2,6 +2,37 @@
 label: Home Design
 hide_body: true
 fields:
+- name: introduction
+  type: field_group
+  config: {}
+  fields:
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  - name: body
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Body
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+  - name: amenities
+    type: list
+    config:
+      use_select: false
+      min: 
+      max: 
+    label: Amenities
+  label: Introduction
 - name: gallery_section
   type: field_group
   config: {}
