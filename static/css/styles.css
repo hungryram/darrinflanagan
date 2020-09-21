@@ -8,6 +8,12 @@ body {
 }
 /* GLOBAL */
 
+div.page-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .big-section {
     padding: 6rem 1.5rem;
 }
