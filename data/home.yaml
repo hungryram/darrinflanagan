@@ -149,5 +149,26 @@ banner:
   heading: A la Carte and Memberships Available
   body: Book a room or grab a Day Pass without a membership. If you'd like to become
     a member, see which option works for you.
-  button_link: https://members.launchandgoworkspace.com/
+  button_link: https://launchandgoworkspace.com/#membership
   button_label: See Options
+hero:
+  image: "/uploads/office3.jpg"
+  subtitle: Peachtree City, Georgia
+  heading: The Premier Coworking Space
+  body: We offer professional work spaces to fit your budget, availability & productivity
+    needs.
+  button_link: https://members.launchandgoworkspace.com/calendar
+  button_label: Book Now
+  hero_footer:
+    first_column:
+      heading: Bookable Spaces
+      body: Book one of our rooms for your next client meeting or event
+      small_text: Available by the hour or recurring.
+      link: https://launchandgoworkspace.com/#bookable-rooms
+      link_text: View Rooms
+    second_column:
+      heading: Desk Workspaces
+      body: Grab an available “hot desk” or opt for a dedicated space.
+      small_text: Available options daily or monthly.
+      link: https://launchandgoworkspace.com/#membership
+      link_text: Memberships
