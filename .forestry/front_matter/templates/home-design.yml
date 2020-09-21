@@ -37,6 +37,56 @@ fields:
       max: 
     label: Amenities
   label: Introduction
+- name: process
+  type: field_group
+  config: {}
+  fields:
+  - name: heading
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Heading
+  - name: body
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Body
+  - name: image
+    type: file
+    config:
+      maxSize: 2
+    label: Image
+  - name: steps
+    type: field_group_list
+    fields:
+    - name: heading
+      type: text
+      config:
+        required: false
+      label: Heading
+    - name: body
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: markdown
+      label: Body
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Steps
+  label: Process
 - name: gallery_section
   type: field_group
   config: {}
