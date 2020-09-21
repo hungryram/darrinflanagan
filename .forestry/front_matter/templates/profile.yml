@@ -11,11 +11,6 @@ fields:
   type: field_group
   config: {}
   fields:
-  - name: full_name
-    type: text
-    config:
-      required: false
-    label: Full Name
   - name: email
     type: text
     config:
