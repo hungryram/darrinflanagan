@@ -39,6 +39,9 @@
           <div class="column is-1"></div>
           <div class="column has-text-left contact-info">
             <h1 class="title is-4 has-text-white">Contact</h1>
+            {{ if .Site.Data.appearance.branding.logo }}
+            <img src="{{ .Site.Data.appearance.branding.logo }}" alt="{{ .Site.Data.profile.company_name }}" width="150">
+            {{ end }}
             {{ if $footerContact.street_address }}<p class="has-text-white">{{ $footerContact.street_address }}, {{ $footerContact.city }}, {{ $footerContact.state }} {{ $footerContact.zip_code }}</p>{{ end }}
             {{ if $footerContact.phone }}<a href="tel:{{ $footerContact.phone }}" class="has-text-white">Phone: {{ $footerContact.phone }}</a>{{ end }}
             {{ if $footerContact.email }}<a href="mailto:{{ $footerContact.email }}" class="has-text-white">Email: {{ $footerContact.email }}</a>{{ end }}

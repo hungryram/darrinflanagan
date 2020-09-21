@@ -1,2 +1,7 @@
 baseURL = "https://launchandgoworkspace.netlify.app/"
 languageCode = "en-us"
+[[menu.main]]
+name = "Home Value Request"
+parent = "Buyers & Sellers"
+url = "https://karinacrisp.netlify.app/home-value-request/"
+weight = 3
