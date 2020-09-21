@@ -112,9 +112,13 @@ fields:
         required: false
       label: Heading
     - name: subtitle
-      type: text
+      type: textarea
+      default: ''
       config:
         required: false
+        wysiwyg: true
+        schema:
+          format: markdown
       label: Subtitle
     - name: details
       type: textarea
