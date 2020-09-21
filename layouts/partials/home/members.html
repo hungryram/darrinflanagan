@@ -1,13 +1,13 @@
 {{ $memberOptions := .Site.Data.home.membership_options }}
-<div class="section">
+<div class="big-section" style="background: #FAFAFA">
     <div class="container">
         <div class="columns is-vcentered mb-6">
             <div class="column is-8">
-                <h1 class="title is-4">{{ .Site.Data.home.membership_options.heading }}</h1>
-                <p>{{ .Site.Data.home.membership_options.body_text | markdownify }}</p>
+                {{ if $memberOptions.heading }}<h1 class="title is-4">{{ .Site.Data.home.membership_options.heading }}</h1>{{ end }}
+                {{ if $memberOptions.body_text }}<p>{{ .Site.Data.home.membership_options.body_text | markdownify }}</p>{{ end }}
             </div>
             <div class="column has-text-centered">
-              <a href="https://members.launchandgoworkspace.com/" class="primary-btn">View All Options</a>
+              {{ if $memberOptions.button_link }}<a href="{{ $memberOptions.button_link }}" class="primary-btn">{{ $memberOptions.button_text }}</a>{{ end }}
             </div>
         </div>
         <div class="columns is-multiline">

@@ -1,3 +1,7 @@
+
+html {
+    scroll-behavior: smooth;
+  }
 /* GLOBAL */
 
 .big-section {
@@ -6,7 +10,13 @@
 
 a.primary-link {
     color: #F4B221;
+    transition: .3s ease;
     position: relative;
+}
+
+a.primary-link:hover {
+    color: #bb850f;
+    transition: .3s ease;
 }
 
 a.primary-btn {
@@ -76,8 +86,14 @@ div.banner a.primary-btn {
 
 /* NAVBAR */
 
-a.navbar-item {
-    transition: .3s ease;
+@media screen and (min-width: 768px){
+    a.navbar-item {
+        transition: .3s ease;
+        color: #fff;
+    }
+}
+
+.navbar-burger span {
     color: #fff;
 }
 
