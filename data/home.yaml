@@ -116,3 +116,20 @@ footer:
     Monday through Friday
     Staff available 9am to 5pm
     Members receive 24/7 building access
+introduction:
+  heading: Workspace Amenities Designed To Help Your Business Thrive
+  body: Do your best work in our bright, modern spaces that are optimized to meet
+    your professional needs. Select from beautifully designed open desks, private
+    offices, meeting rooms or the podcast studio. Launch and Go has flexible, comfortable
+    and inspiring spaces ready whenever you are, day or night.
+  image: "/uploads/img_0191.jpg"
+  amenities:
+  - Podcast Studio
+  - Coffee, Tea & Sparkling Water
+  - Private Phone Booth
+  - Printer, Copier & Scanner Access
+  - Secure High Speed 1 Gbps WiFi Internet
+  - Mail & Package Service
+  - 24/7 Access with Secure Keyless Entry
+  - 'Staffed Hours: 9am-5pm, Mon-Fri'
+  - Online Dashboard & Free App
