@@ -166,7 +166,7 @@ hero:
       heading: Bookable Spaces
       body: Book one of our rooms for your next client meeting or event
       small_text: Available by the hour or recurring.
-      link: https://launchandgoworkspace.com/#bookable-rooms
+      link: "#bookable"
       link_text: View Rooms
     second_column:
       heading: Desk Workspaces
