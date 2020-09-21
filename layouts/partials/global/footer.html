@@ -1,3 +1,5 @@
+{{ $footerSocial := .Site.Data.profile.social_accounts }}
+{{ $footerContact := .Site.Data.profile.primary_contact }}
 <!-- Footer -->
 <footer class="footer">
     <div class="section">
@@ -35,14 +37,69 @@
             </form>
           </div>
           <div class="column is-1"></div>
-          <div class="column has-text-left">
+          <div class="column has-text-left contact-info">
             <h1 class="title is-4 has-text-white">Contact</h1>
+            {{ if $footerContact.street_address }}<p class="has-text-white">{{ $footerContact.street_address }}, {{ $footerContact.city }}, {{ $footerContact.state }} {{ $footerContact.zip_code }}</p>{{ end }}
+            {{ if $footerContact.phone }}<a href="tel:{{ $footerContact.phone }}" class="has-text-white">Phone: {{ $footerContact.phone }}</a>{{ end }}
+            {{ if $footerContact.email }}<a href="mailto:{{ $footerContact.email }}" class="has-text-white">Email: {{ $footerContact.email }}</a>{{ end }}
+            {{ if .Site.Data.home.footer.footer_text }}<p class="has-text-white">{{ .Site.Data.home.footer.footer_text | markdownify }}</p>{{ end }}
+            <ul class="footer-social">
+              {{ if $footerSocial.facebook }}<li><a href="{{ $footerSocial.facebook }}" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="20" height="20" viewBox="0 0 24 24" stroke-width="1" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z"/>
+                  <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                </svg>
+              </a></li>{{ end }}
+              {{ if $footerSocial.instagram }}<li><a href="{{ $footerSocial.instagram }}" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="20" height="20" viewBox="0 0 24 24" stroke-width="1" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z"/>
+                  <rect x="4" y="4" width="16" height="16" rx="4" />
+                  <circle cx="12" cy="12" r="3" />
+                  <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                </svg>
+              </a></li>{{ end }}
+              {{ if $footerSocial.twitter }}<li><a href="{{ $footerSocial.twitter }}" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="20" height="20" viewBox="0 0 24 24" stroke-width="1" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z"/>
+                  <path d="M22 4.01c-1 .49-1.98.689-3 .99-1.121-1.265-2.783-1.335-4.38-.737S11.977 6.323 12 8v1c-3.245.083-6.135-1.395-8-4 0 0-4.182 7.433 4 11-1.872 1.247-3.739 2.088-6 2 3.308 1.803 6.913 2.423 10.034 1.517 3.58-1.04 6.522-3.723 7.651-7.742a13.84 13.84 0 0 0 .497 -3.753C20.18 7.773 21.692 5.25 22 4.009z" />
+                </svg>
+              </a></li>{{ end }}
+              {{ if $footerSocial.pinterest }}<li><a href="{{ $footerSocial.pinterest }}" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-pinterest" width="20" height="20" viewBox="0 0 24 24" stroke-width="1" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z"/>
+                  <line x1="8" y1="20" x2="12" y2="11" />
+                  <path d="M10.7 14C11.137 15.263 12.13 16 13.25 16c2.071 0 3.75-1.554 3.75-4a5 5 0 1 0 -9.7 1.7" />
+                  <circle cx="12" cy="12" r="9" />
+                </svg>
+              </a></li>{{ end }}
+              {{ if $footerSocial.youtube }}<li><a href="{{ $footerSocial.youtube }}" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-youtube" width="20" height="20" viewBox="0 0 24 24" stroke-width="1" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z"/>
+                  <rect x="3" y="5" width="18" height="14" rx="4" />
+                  <path d="M10 9l5 3l-5 3z" />
+                </svg>
+              </a></li>{{ end }}
+              {{ if $footerSocial.linkedin }}<li><a href="{{ $footerSocial.linkedin }}" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="20" height="20" viewBox="0 0 24 24" stroke-width="1" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z"/>
+                  <rect x="4" y="4" width="16" height="16" rx="2" />
+                  <line x1="8" y1="11" x2="8" y2="16" />
+                  <line x1="8" y1="8" x2="8" y2="8.01" />
+                  <path d="M12 16v-5" />
+                  <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+                </svg>
+              </a></li>{{ end }}
+            </ul>
           </div>
         </div>
       </div>
     </div>
 </footer>
-
+<div class="bottom-footer">
+  <div class="container">
+    <small class="has-text-white">&copy; Copyright {{ dateFormat "2006" now }}, {{ .Site.Data.profile.company_name }} &middot; <a href="https://hungryram.com" target="_blank" class="has-text-white">Website Developed by Hungry Ram</a></small>
+  </div>
+</div>
         <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
         <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
