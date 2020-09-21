@@ -5,6 +5,10 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: data/profile.yaml
+  label: Profile
+  match: "**/*"
+- type: document
   path: data/home.yaml
   label: Home Design
 - type: directory
