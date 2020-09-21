@@ -43,16 +43,7 @@
               <a href="{{ .URL }}" class="navbar-item">{{ .Name }}</a>
           {{ end }}
           {{ end }} <!-- End range menu -->
-        </div>
-    
-        <div class="navbar-end">
-          <div class="navbar-item">
-            <div class="buttons">
-              <a href="/contact" class="button demo">
-                Contact
-              </a>
-            </div>
-          </div>
+          <a href="tel:{{ .Site.Data.profile.primary_contact.phone }}" class="navbar-item cta-nav">{{ $.Site.Data.profile.primary_contact.phone }}</a>
         </div>
       </div>
     </div>

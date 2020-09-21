@@ -1,31 +1,32 @@
-<div class="section">
+{{ $process := .Site.Data.home.process }}
+<div class="big-section" style="background: #FAFAFA">
     <div class="container">
         <div class="columns">
-            <div class="column is-8">
-                <img src="uploads/how_it_works_book.png" alt="">
-            </div>
-            <div class="column">
-                <h2 class="title is-3 page-title">Our Easy <span>3 Step Process</span></h2>
-                <div class="process-1 mt-5">
-                    <h3 class="title is-4 mb-0">Book Your Space</h3>
-                    <p>Select the day you'd like to grab a Hot Desk or Meeting Room.</p>
-                </div>
-                <div class="process-2 mt-5">
-                    <h3 class="title is-4 mb-0">Create Your Account</h3>
-                    <p>Manage all your bookings & account options in your dashboard</p>
-                </div>
-                <div class="process-3 mt-5">
-                    <h3 class="title is-4 mb-0">Add Payment</h3>
-                    <p>Checkout online & you're done. It's that easy.</p>
-                </div>
+            <div class="column has-text-centered">
+                {{ if $process.heading }}
+                <h2 class="title is-3 page-title">{{ $process.heading | markdownify }}</h2>
+                {{ end }}
             </div>
         </div>
-        <div class="columns is-vcentered banner">
-            <div class="column is-8">
-                <div class="banner">
-                    <h2 class="title is-3">A la Carte and Memberships Available</h2>
-                    <p>Book a room or grab a Day Pass without a membership. If you'd like to become a member, see which option works for you.</p>
+        <div class="columns has-text-centered mb-6 is-multiline">
+            {{ range $process.steps }}
+            <div class="column is-4">
+                <div class="process-1 mt-5">
+                    <h3 class="title is-4 mb-0">{{ .heading }}</h3>
+                    <p>{{ .body | markdownify }}</p>
                 </div>
+            </div>
+            {{ end }}
+        </div>
+        <div class="columns">
+            <div class="column has-text-centered">
+                <img src="uploads/how_it_works_book.png" alt="" width="700">
+            </div>
+        </div>
+        <div class="columns is-vcentered banner mt-6">
+            <div class="column is-8">
+                    <h2 class="title is-3 has-text-white">A la Carte and Memberships Available</h2>
+                    <p class="has-text-white">Book a room or grab a Day Pass without a membership. If you'd like to become a member, see which option works for you.</p>
             </div>
             <div class="column has-text-centered">
                 <a href="" class="primary-btn">Learn More</a>
