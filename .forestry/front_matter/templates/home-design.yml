@@ -145,5 +145,19 @@ fields:
       labelField: 
     label: Bookable Spaces
   label: Bookable Spaces
+- name: footer
+  type: field_group
+  config: {}
+  fields:
+  - name: footer_text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Footer Text
+  label: Footer
 pages:
 - data/home.yaml
