@@ -35,6 +35,12 @@ a.primary-btn {
     padding: 15px 30px;
 }
 
+a.secondary-btn {
+    background: white;
+    padding: 15px 50px;
+    color: #000;
+}
+
 div.line {
     background: #F4B221;
     width: 100px;
@@ -176,11 +182,18 @@ header.card-header {
     background: #00697A;
 }
 
+/* FEAUTURED */
+
+div.featured__container {
+    background: #F4B221;
+    margin-top: 100px;
+    padding: 25px;
+}
+
 /* FOOTER */
 
 footer.footer {
     background: #0E0E0C;
-    margin-top: 100px;
 }
 
 footer.card-footer p {
