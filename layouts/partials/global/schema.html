@@ -4,7 +4,7 @@
       "@context" : "http://schema.org",
       "@type" : "LocalBusiness",
       "name" : "{{ $profile.company_name }}",
-      "image" : "{{ .Site.Data.design.branding.logo }}",
+      "image" : "{{ .Site.Data.appearance.branding.logo | absURL }}",
       "telephone" : "{{ $profile.primary_contact.phone }}",
       "address" : {
         "@type" : "PostalAddress",
