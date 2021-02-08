@@ -114,10 +114,8 @@ bookable_spaces:
 
       _Seats up to 60_
 footer:
-  footer_text: |-
-    Monday through Friday
-    Staff available 9am to 5pm
-    Members receive 24/7 building access
+  footer_text: "Staff available Tuesday - Thursday from 10:00 - 3:00  \nCall or email
+    to schedule an office tour.\nMembers receive 24/7 building access"
 introduction:
   heading: Workspace **Amenities** Designed To Help Your Business Thrive
   body: Do your best work in our bright, modern spaces that are optimized to meet
