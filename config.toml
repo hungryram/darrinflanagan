@@ -12,3 +12,4 @@ weight = 2
 name = "Events"
 url = "https://members.launchandgoworkspace.com/events"
 weight = 1
+disableKinds = ["taxonomy", "taxonomyTerm"]
