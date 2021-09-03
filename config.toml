@@ -1,5 +1,6 @@
 baseURL = "https://www.launchandgoworkspace.com/"
 languageCode = "en-us"
+disableKinds = ["taxonomy", "taxonomyTerm"]
 [[menu.main]]
 name = "Login"
 url = "https://members.launchandgoworkspace.com/login"
@@ -12,4 +13,3 @@ weight = 2
 name = "Events"
 url = "https://members.launchandgoworkspace.com/events"
 weight = 1
-disableKinds = ["taxonomy", "taxonomyTerm"]
