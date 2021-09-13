@@ -35,7 +35,8 @@ a.primary-btn {
     padding: 15px 30px;
 }
 
-a.secondary-btn {
+a.secondary-btn,
+button.primary-btn {
     background: white;
     padding: 15px 50px;
     color: #000;
