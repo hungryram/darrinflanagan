@@ -48,7 +48,7 @@
 <link rel="apple-touch-icon" href="{{ $favicon | absURL }}" />
 <link rel="shortcut icon" href="{{ $favicon | absURL }}" />
 <link rel="canonical" href="{{ .Permalink }}" />
-
+<meta name="twitter:card" content="summary_large_image">
 {{ with .Params.featured_image }}
   <meta property="og:image" content="{{ . }}" />
   <meta name="twitter:image" content="{{ . }}" />
