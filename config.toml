@@ -1,6 +1,7 @@
 baseURL = "https://www.launchandgoworkspace.com/"
 languageCode = "en-us"
 disableKinds = ["taxonomy", "taxonomyTerm"]
+enableRobotsTXT = "true"
 [[menu.main]]
 name = "Login"
 url = "https://members.launchandgoworkspace.com/login"
