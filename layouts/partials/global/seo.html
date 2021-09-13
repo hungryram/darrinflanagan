@@ -48,13 +48,12 @@
 <link rel="apple-touch-icon" href="{{ $favicon | absURL }}" />
 <link rel="shortcut icon" href="{{ $favicon | absURL }}" />
 <link rel="canonical" href="{{ .Permalink }}" />
-<meta name="twitter:card" content="summary_large_image">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
 {{ with .Params.featured_image }}
   <meta property="og:image" content="{{ . }}" />
   <meta name="twitter:image" content="{{ . }}" />
+  <meta name="twitter:card" content="summary_large_image">
 {{ else }}
-  <meta property="og:image" content="{{ $logo | absURL }}" />
-  <meta name="twitter:image" content="{{ $logo | absURL }}" />
+  <meta property="og:image" content="{{ $.Site.BaseURL }}/uploads/img_0191.jpg" />
+  <meta name="twitter:image" content="{{ $.Site.BaseURL }}/uploads/img_0191.jpg" />
+  <meta name="twitter:card" content="summary_large_image">
 {{ end }}
