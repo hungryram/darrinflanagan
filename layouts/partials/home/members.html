@@ -3,7 +3,7 @@
     <div class="container">
         <div class="columns is-vcentered mb-6">
             <div class="column is-8">
-                {{ if $memberOptions.heading }}<h1 class="title is-4">{{ .Site.Data.home.membership_options.heading }}</h1>{{ end }}
+                {{ if $memberOptions.heading }}<h2 class="title is-4">{{ .Site.Data.home.membership_options.heading }}</h2>{{ end }}
                 {{ if $memberOptions.body_text }}<p>{{ .Site.Data.home.membership_options.body_text | markdownify }}</p>{{ end }}
             </div>
             <div class="column has-text-centered">

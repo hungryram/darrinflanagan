@@ -40,11 +40,11 @@
           </div>
           <div class="column is-1"></div>
           <div class="column has-text-left contact-info">
-            <h1 class="title is-4 has-text-white">Contact</h1>
+            <h2 class="title is-4 has-text-white">Contact</h2>
             {{ if .Site.Data.appearance.branding.logo }}
             <img src="{{ .Site.Data.appearance.branding.logo }}" alt="{{ .Site.Data.profile.company_name }}" width="150">
             {{ end }}
-            {{ if $footerContact.street_address }}<p class="has-text-white">{{ $footerContact.street_address }}, {{ $footerContact.city }}, {{ $footerContact.state }} {{ $footerContact.zip_code }}</p>{{ end }}
+            {{ if $footerContact.street_address }}<p class="has-text-white"><a href="https://g.page/Launch-and-Go?share" style="color:#fff;">{{ $footerContact.street_address }}, {{ $footerContact.city }}, {{ $footerContact.state }} {{ $footerContact.zip_code }}</a></p>{{ end }}
             {{ if $footerContact.phone }}<a href="tel:{{ $footerContact.phone }}" class="has-text-white">Phone: {{ $footerContact.phone }}</a>{{ end }}
             {{ if $footerContact.email }}<a href="mailto:{{ $footerContact.email }}" class="has-text-white">Email: {{ $footerContact.email }}</a>{{ end }}
             {{ if .Site.Data.home.footer.footer_text }}<p class="has-text-white">{{ .Site.Data.home.footer.footer_text | markdownify }}</p>{{ end }}
@@ -102,7 +102,19 @@
 </footer>
 <div class="bottom-footer">
   <div class="container">
-    <small class="has-text-white">&copy; Copyright {{ dateFormat "2006" now }}, {{ .Site.Data.profile.company_name }} &middot; <a href="https://hungryram.com" target="_blank" class="has-text-white" rel="nofollow">Website Developed by Hungry Ram</a></small>
+
+    <div class="columns">
+      <div class="column">
+        <small class="has-text-white">&copy; Copyright {{ dateFormat "2006" now }}, {{ .Site.Data.profile.company_name }} &middot; <a href="https://hungryram.com" target="_blank" class="has-text-white" rel="nofollow">Website Developed by Hungry Ram</a></small>
+      </div>
+      <div class="column">
+        <ul class="hr-legals">
+          {{ range where $.Site.Pages.ByWeight "Type" "legal" }}
+          <li style="display:inline;margin-right:8px"><small><a href="{{ .Permalink }}" style="color:#fff;">{{ .Title }}</a></small></li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
   </div>
 </div>
         <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
