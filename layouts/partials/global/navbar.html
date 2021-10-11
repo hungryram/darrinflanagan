@@ -43,6 +43,7 @@
               <a href="{{ .URL }}" class="navbar-item {{ if not $.IsHome }}has-text-black{{ end }} ">{{ .Name }}</a>
           {{ end }}
           {{ end }} <!-- End range menu -->
+          <a href="/contact" class="navbar-item{{ if not $.IsHome }} has-text-black{{ end }}">Contact</a>
           <a href="tel:{{ .Site.Data.profile.primary_contact.phone }}" class="navbar-item cta-nav">{{ $.Site.Data.profile.primary_contact.phone }}</a>
         </div>
       </div>
