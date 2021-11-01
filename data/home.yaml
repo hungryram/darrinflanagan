@@ -65,8 +65,8 @@ membership_options:
     details: |-
       INCLUDED
 
-      * **Day Pass 5-Pack for $50. ($10/day)**
-    price: "$10/day"
+      * **Day Pass 5-Pack for $50. ($20/day)**
+    price: "$20/day"
     link: https://members.launchandgoworkspace.com/account/memberships/change?mcids=3631
   button_link: https://members.launchandgoworkspace.com/
   button_text: View All Options
