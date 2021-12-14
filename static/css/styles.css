@@ -1,168 +1,11 @@
+/* TYPOGRAPHY */
 
-html {
-    scroll-behavior: smooth;
+.uk-white {
+    color: #fff!important;
 }
 
-body {
-    overflow: hidden;
-}
-/* GLOBAL */
-
-div.page-banner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.big-section {
-    padding: 6rem 1.5rem;
-}
-
-a.primary-link {
-    color: #F4B221;
-    transition: .3s ease;
-    position: relative;
-}
-
-a.primary-link:hover {
-    color: #bb850f;
-    transition: .3s ease;
-}
-
-a.primary-btn {
-    background: #F4B221;
-    color: #fff;
-    padding: 15px 30px;
-}
-
-a.secondary-btn,
-button.primary-btn {
-    background: white;
-    padding: 15px 50px;
-    color: #000;
-}
-
-div.line {
-    background: #F4B221;
-    width: 100px;
-    height: 3px;
-    margin: 10px 0;
-}
-
-body a {
-    font-family: 'Mukta', sans-serif;
-}
-
-p a {
-    color: #00697A;
-}
-
-body h1.title,
-body h2.title,
-body h3.title,
-body h4.title,
-body h5.title,
-body h6.title {
-    font-family: 'Montserrat', sans-serif;
-    line-height: 40px;
-}
-
-h1.page-title strong,
-h2.page-title strong,
-h3.page-title strong,
-h4.page-title strong,
-h5.page-title strong,
-h6.page-title strong {
-    color: #F4B221;
-}
-
-body h1.subtitle,
-body h2.subtitle,
-body h3.subtitle,
-body h4.subtitle,
-body h5.subtitle,
-body h6.subtitle {
-    font-family: 'Mukta', sans-serif;
-}
-
-body p,
-li {
-    font-family: 'Mukta', sans-serif;
-    color: #666666;
-    font-size: inherit;
-}
-
-div.banner {
-    background: #F4B221;
-    padding: 50px 30px;
-}
-
-div.banner a.primary-btn {
-    border: 2px solid white;
-}
-
-/* NAVBAR */
-
-@media screen and (min-width: 768px){
-    a.navbar-item {
-        transition: .3s ease;
-        color: #fff;
-    }
-}
-
-.navbar-burger span {
-    color: #fff;
-}
-
-.hero nav.navbar {
-    padding: 10px;
-}
-
-a.navbar-item img {
-    max-height: 3rem;
-}
-
-a.navbar-item.cta-nav {
-    background: #F4B221;
-    transition: .3s ease;
-    color: #fff;
-
-}
-
-div a.navbar-item:hover {
-    background:transparent;
-    color: #00697A;
-    transition: .3s ease;
-}
-
-div a.navbar-item.cta-nav:hover {
-    background: #F4B221;
-}
-
-
-/* HERO BANNER */
-
-div.hero-foot > .container {
-    padding: 20px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    /* background: rgb(33 33 33 / 90%); */
-}
-
-div.hero-foot a.primary-link:after {
-    content: "";
-    position: absolute;
-    background: #F4B221;
-    width: 100%;
-    height: 1px;
-    top: 12px;
-    left: 140px;
-}
-
-a.hero-btn {
-    background: #F4B221;
-    padding: 15px 30px;
-    color: #000000;
+body em {
+    color: inherit;
 }
 
 /* ABOUT */
@@ -183,6 +26,51 @@ header.card-header {
     background: #00697A;
 }
 
+.card-header {
+    background-color: transparent;
+    align-items: stretch;
+    box-shadow: 0 0.125em 0.25em rgb(10 10 10 / 10%);
+    display: flex;
+}
+
+.card-footer {
+    background-color: transparent;
+    border-top: 1px solid #ededed;
+    align-items: stretch;
+    display: flex;
+}
+
+.card-footer-item:not(:last-child) {
+    border-right: 1px solid #ededed;
+}
+
+footer.card-footer p {
+    background: #f4f4f4;
+}
+
+.card-footer-item {
+    align-items: center;
+    display: flex;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 0;
+    justify-content: center;
+    padding: 0.75rem;
+}
+
+.card-content {
+    background-color: transparent;
+    padding: 1.5rem;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
+    color: #4a4a4a;
+    max-width: 100%;
+    position: relative;
+}
+
 /* FEAUTURED */
 
 div.featured__container {
@@ -195,52 +83,4 @@ div.featured__container {
 
 footer.footer {
     background: #0E0E0C;
-}
-
-footer.card-footer p {
-    background: #f4f4f4;
-}
-
-footer.card-footer a {
-    background: #F4B221;
-    color: #fff;
-}
-
-
-.footer-form input.input,
-.footer-form textarea.textarea {
-    background: transparent;
-    border-bottom: 1px solid white;
-    border-right: 0;
-    border-left: 0;
-    border-top: 0;
-    border-radius: 0;
-    color: #fff;
-    outline: none;
-    -webkit-appearance: none;
-}
-
-.footer-form input.input::placeholder,
-.footer-form textarea.textarea::placeholder {
-    color: rgb(128, 128, 128);
-}
-
-div.contact-info p,
-div.contact-info a {
-    margin-top: 20px;
-    font-size: 18px;
-}
-
-div.bottom-footer {
-    background: #1C1C1C;
-    padding: 20px;
-}
-
-ul.footer-social {
-    margin-top: 20px;
-}
-
-ul.footer-social li {
-    display: inline-block;
-    margin-right: 15px;
 }

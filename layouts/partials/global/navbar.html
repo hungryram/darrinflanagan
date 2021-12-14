@@ -1,51 +1,53 @@
 {{ $branding := .Site.Data.appearance.branding }}
-<nav class="navbar" role="navigation" aria-label="main navigation" style="border-bottom:1px solid #939393;">
-    <div class="container">  
-    <div class="navbar-brand">
-      
-        <a class="navbar-item" href="{{ .Site.BaseURL }}">
-            {{ if $branding.logo }}
-            <img src="{{ $branding.logo }}" alt="Launch and Go Workspace">
-            {{ else }}
-            <h1 class="title is-4">{{ $branding.site_title }}</h1>
-            {{ end }}
-        </a>
-    
-        <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
-          <span aria-hidden="true" class="{{ if not $.IsHome }}has-text-black{{ end }}"></span>
-          <span aria-hidden="true" class="{{ if not $.IsHome }}has-text-black{{ end }}"></span>
-          <span aria-hidden="true" class="{{ if not $.IsHome }}has-text-black{{ end }}"></span>
-        </a>
-      </div>
-    
-      <div id="navMenu" class="navbar-menu">
-        <div class="navbar-end">
-          {{ $currentPage := . }}
-          {{ range .Site.Menus.main }}
-          {{ if .HasChildren }}
-              <div class="navbar-item has-dropdown is-hoverable main-drop">
-                  <a class="navbar-link {{ if not $.IsHome }}has-text-black{{ end }} " href="javascript:;">
-                      {{ .Name }}
-                  </a>
-                  <!-- First Level Dropdown -->
-                      <div class="navbar-dropdown">
-                          {{ range .Children }}
-                              
-                              <a class="navbar-item {{ if not $.IsHome }}has-text-black{{ end }} {{ if .HasChildren }}navbar-link first-drop is-hoverable{{ end }}" href="{{ if .HasChildren }}javascript:;{{ else }}{{ .URL }}{{ end }}">
-                              {{ .Name }}
-                              </a>
-                          
-                          {{ end }}
-                    </div>
-                    <!-- End first level Dropdown -->
+
+
+
+
+    <div class="uk-visible@s" uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky uk-dark; cls-inactive: uk-navbar-transparent; top: 200">
+      <nav class="uk-navbar-container uk-navbar-transparent"{{ if not .IsHome }} style="border-bottom: 1px solid rgb(213 213 213 / 20%);"{{ end }}>
+          <div class="uk-container uk-container-large" style="padding-top:10px;padding-bottom:10px;">
+              <div uk-navbar>
+                  <div class="uk-navbar-left">
+                      <a href="{{ .Site.BaseURL }}"><img src="{{ .Site.Data.appearance.branding.logo }}" alt="{{ .Site.Data.profile.company_name }} logo" width="130"></a>
+  
+                  </div>
+                  <div class="uk-navbar-right">
+                      <ul class="uk-navbar-nav uk-text-bold">
+                          <li><a href="/">Home</a></li>
+                          <li><a href="/videos">Videos</a></li>
+                          <li><a href="/photography">Photography</a></li>
+                          <li><a href="/contact">Contact</a></li>
+                          {{ if .Site.Data.profile.social_media.instagram }}<li><a href="{{ .Site.Data.profile.social_media.instagram }}" target="_blank">IG</a></li>{{ end }}
+                          {{ if .Site.Data.profile.social_media.facebook }}<li><a href="{{ .Site.Data.profile.social_media.facebook }}" target="_blank">FB</a></li>{{ end }}
+                      </ul>
+                  </div>
+  
               </div>
-              {{ else }} <!-- Else No Drop Down-->
-              <a href="{{ .URL }}" class="navbar-item {{ if not $.IsHome }}has-text-black{{ end }} ">{{ .Name }}</a>
-          {{ end }}
-          {{ end }} <!-- End range menu -->
-          <a href="/contact" class="navbar-item{{ if not $.IsHome }} has-text-black{{ end }}">Contact</a>
-          <a href="tel:{{ .Site.Data.profile.primary_contact.phone }}" class="navbar-item cta-nav">{{ $.Site.Data.profile.primary_contact.phone }}</a>
-        </div>
+          </div>
+      </nav>
+  </div>
+  
+  
+  {{/*  MOBILE MENU  */}}
+  <div uk-sticky="animation: uk-animation-slide-top-medium; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-dark; cls-inactive:uk-navbar-transparent; top: 400">
+      <nav class="uk-navbar uk-navbar-container uk-hidden@s uk-padding-small uk-box-shadow-small">
+          <div class="uk-navbar-left">
+              <a href="{{ .Site.BaseURL }}"><img src="{{ .Site.Data.appearance.branding.logo }}" alt="{{ .Site.Data.profile.company_name }} logo" width="200"></a>
+          </div>
+          <div class="uk-navbar-right">
+              <a class="uk-navbar-toggle" uk-navbar-toggle-icon href="#mobile-menu-slide" uk-toggle></a>
+          </div>
+      </nav>
       </div>
-    </div>
-    </nav>
+      <div id="mobile-menu-slide" style="z-index: 5;" uk-offcanvas>
+          <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+              <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+                  <li><a href="/">Home</a></li>
+                  <li><a href="/videos">Videos</a></li>
+                  <li><a href="/photography">Photography</a></li>
+                  <li><a href="/contact">Contact</a></li>
+                  {{ if .Site.Data.profile.social_media.instagram }}<li><a href="{{ .Site.Data.profile.social_media.instagram }}" target="_blank">IG</a></li>{{ end }}
+                  {{ if .Site.Data.profile.social_media.facebook }}<li><a href="{{ .Site.Data.profile.social_media.facebook }}" target="_blank">FB</a></li>{{ end }}
+              </ul>
+          </div>
+      </div>

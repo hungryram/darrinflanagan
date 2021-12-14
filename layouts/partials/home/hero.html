@@ -1,59 +1,29 @@
 {{ $hero := .Site.Data.home.hero }}
 {{ $heroc1 := .Site.Data.home.hero.hero_footer.first_column }}
 {{ $heroc2 := .Site.Data.home.hero.hero_footer.second_column }}
-<section class="hero is-fullheight" style="background:linear-gradient(rgb(33 33 33 / 50%),rgb(33 33 33 / 60%)),url({{ $hero.image }}) no-repeat center;background-size:cover">
-    <!-- Hero head: will stick at the top -->
+<div class="uk-position-top">
     {{ partial "global/navbar" . }}
-  
-    <!-- Hero content: will be in the middle -->
-    <div class="hero-body">
-        <div class="container">
-            <div class="columns">
-                <div class="column is-three-fifths">
-                    {{ if $hero.subtitle }}
-                    <h2 class="subtitle mb-6" style="color:#F4B221">{{ $hero.subtitle }}</h2>
-                    {{ end }}
-                    {{ if $hero.heading }}
-                    <h1 class="title has-text-white is-2">{{ $hero.heading }}</h1>
-                    {{ end }}
-                        {{ if $hero.body }}
-                        <p class="has-text-white">{{ $hero.body }}</p>
-                        {{ end }}
-                        <br>
-                        <br>
-                        {{ if $hero.button_link }}
-                        <a href="{{ $hero.button_link }}" class="hero-btn">{{ $hero.button_label }}</a>
-                        {{ end }}
-                </div>
-            </div>
-        </div>
-    </div>  
-    <!-- Hero footer: will stick at the bottom -->
-    <div class="hero-foot">
-        <div class="container">
-            <div class="columns is-variable is-4">
-                <div class="column is-three-fifths">
-                    <div class="columns">
-                        {{ if $heroc1 }}
-                        <div class="column">
-                            <h2 class="title is-6 has-text-white">{{ $heroc1.heading }}</h2>
-                            <p class="has-text-white">{{ $heroc1.body }}</p>
-                            <p class="has-text-white is-size-7 mb-4">{{ $heroc1.small_text }}</p>
-                            <a href="{{ $heroc1.link }}" class="primary-link">{{ $heroc1.link_text }}</a>
+</div>
+<div class="uk-section-default uk-section uk-flex uk-flex-middle" uk-height-viewport style="background:url(https://res.cloudinary.com/hungryram19/image/upload/v1639462994/darrin-flanagan/launch-and-go-workspace/img_0190-1.jpg) no-repeat center;background-size:cover">
+    <div class="uk-width-1-1 uk-light">
+        <div class="uk-container uk-container-large">
+            <div class="uk-grid-large uk-grid-margin-large" uk-grid>
+                <div class="uk-grid-item-match uk-flex-middle uk-width-1-2@m uk-first-column">
+                    <div class="uk-panel uk-width-1-1">
+                        <div class="uk-h6 accent uk-text-left@m uk-text-center"></div>
+                        <h1 class="uk-width-xlarge uk-text-left@m uk-text-center uk-heading-medium">{{ $hero.heading }}</h1>
+                        <div class="uk-panel uk-margin uk-width-xlarge uk-margin-auto-right@m uk-margin-remove-left@m uk-margin-auto uk-text-left@m uk-text-center">
+                           <p>{{ $hero.body }}</p>
                         </div>
-                        {{ end }}
-                        {{ if $heroc2 }}
-                        <div class="column">
-                            <h2 class="title is-6 has-text-white">{{ $heroc2.heading }}</h2>
-                            <p class="has-text-white">{{ $heroc2.body }}</p>
-                            <p class="has-text-white is-size-7 mb-4">{{ $heroc2.small_text }}</p>
-                            <a href="{{ $heroc1.link }}" class="primary-link">{{ $heroc2.link_text }}</a>
+                        <div class="uk-margin-large uk-text-left@m uk-text-center">
+                            <a class="uk-button uk-button-primary" href="{{ $heroc1.link }}">
+                                {{ $heroc2.link_text }}
+                            </a>
                         </div>
-                        {{ end }}
                     </div>
                 </div>
 
             </div>
         </div>
     </div>
-  </section>
+</div>

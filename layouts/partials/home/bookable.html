@@ -1,38 +1,36 @@
 {{ $bookable := .Site.Data.home.bookable_spaces }}
-<div class="section mt-6" id="bookable">
-    <div class="container">
-        <div class="columns is-vcentered mb-2">
-            <div class="column is-8">
-                <h2 class="title is-4">{{ .Site.Data.home.bookable_spaces.heading }}</h2>
-                <p>{{ .Site.Data.home.bookable_spaces.body_text | markdownify }}</p>
-            </div>
-        </div>
-        <div class="columns is-multiline">
-            {{ range $bookable.bookable_spaces }}
-                <div class="column is-3">
-                    <div class="card" style="height:100%;position:relative;">
-                        <header class="card-header">
-                          <p class="card-header-title has-text-white is-size-5">{{ .heading }}</p>
-                        </header>
-                        <div class="mx-4 pt-3 is-size-7">
-                          {{ .subtitle | markdownify }}
-                          <hr>
-                        </div>
-
-                        <div class="card-content">
-                          <div class="content" style="height:100%">
-
-                            <p>{{ .details | markdownify }}</p>
-                          </div>
-                        </div>
-
-                      </div>
-                      <footer class="card-footer">
-                        <p class="card-footer-item has-text-weight-bold">{{ .price }}</p>
-                        <a href="{{ .link }}" class="card-footer-item">Book</a>
-                      </footer>
-                </div>
-            {{ end }}
-        </div>
+<div class="uk-section uk-section-large" style="background: #fff;">
+  <div class="uk-container uk-container-large">
+    <div class="uk-margin-large-bottom">
+      <h2>{{ .Site.Data.home.bookable_spaces.heading }}</h2>
+      <p>{{ .Site.Data.home.bookable_spaces.body_text | markdownify }}</p>
     </div>
+    <div class="uk-child-width-1-4@s uk-grid-small" uk-grid>
+      {{ range $bookable.bookable_spaces }}
+      <div>
+        <div class="card" style="height:100%;position:relative;">
+            <header class="card-header">
+              <h3 class="uk-h4 uk-text-bold uk-white uk-padding-small uk-margin-remove">{{ .heading }}</h3>
+            </header>
+            <div class="uk-padding-small">
+              {{ .subtitle | markdownify }}
+              <hr>
+            </div>
+
+            <div class="card-content">
+              <div class="content" style="height:100%">
+
+                <p>{{ .details | markdownify }}</p>
+              </div>
+            </div>
+
+          </div>
+          <footer class="card-footer">
+            <p class="card-footer-item">{{ .price }}</p>
+            <a href="{{ .link }}" class="card-footer-item">Book</a>
+          </footer>
+      </div>
+      {{ end }}
+    </div>
+  </div>
 </div>

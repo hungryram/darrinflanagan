@@ -1,41 +1,45 @@
 {{ $memberOptions := .Site.Data.home.membership_options }}
-<div class="big-section" style="background: #FAFAFA">
-    <div class="container">
-        <div class="columns is-vcentered mb-6">
-            <div class="column is-8">
-                {{ if $memberOptions.heading }}<h2 class="title is-4">{{ .Site.Data.home.membership_options.heading }}</h2>{{ end }}
-                {{ if $memberOptions.body_text }}<p>{{ .Site.Data.home.membership_options.body_text | markdownify }}</p>{{ end }}
-            </div>
-            <div class="column has-text-centered">
-              {{ if $memberOptions.button_link }}<a href="{{ $memberOptions.button_link }}" class="primary-btn">{{ $memberOptions.button_text }}</a>{{ end }}
-            </div>
+<div class="uk-section" style="background: #fafafa">
+  <div class="uk-container uk-container-large">
+    <div class="uk-section">
+      <div class="uk-flex uk-flex-middle" uk-grid>
+        <div class="uk-width-3-5@s">
+          {{ if $memberOptions.heading }}<h2 class="uk-text-bold">{{ .Site.Data.home.membership_options.heading }}</h2>{{ end }}
+          {{ if $memberOptions.body_text }}<p>{{ .Site.Data.home.membership_options.body_text | markdownify }}</p>{{ end }}
         </div>
-        <div class="columns is-multiline">
-            {{ range $memberOptions.options }}
-                <div class="column is-3">
-                    <div class="card" style="height:100%;position:relative;">
-                        <header class="card-header">
-                          <h3 class="card-header-title has-text-white is-size-5">{{ .heading }}</h3>
-                        </header>
-                        <div class="mx-4 pt-3 is-size-7">
-                          {{ .subtitle | markdownify }}
-                          <hr>
-                        </div>
-
-                        <div class="card-content">
-                          <div class="content" style="height:100%">
-
-                            <p>{{ .details | markdownify }}</p>
-                          </div>
-                        </div>
-
-                      </div>
-                      <footer class="card-footer">
-                        <p class="card-footer-item has-text-weight-bold">{{ .price }}</p>
-                        <a href="{{ .link }}" class="card-footer-item">Select</a>
-                      </footer>
-                </div>
-            {{ end }}
+        <div class="uk-width-expand@s uk-text-center">
+          <a href="" class="uk-button uk-button-secondary">View all options</a>
         </div>
+      </div>
     </div>
+    <div class="uk-section" style="padding-top:0">
+      <div class="uk-child-width-1-4@m uk-child-width-1-2@s uk-grid-small" uk-grid>
+        {{ range $memberOptions.options }}
+        <div>
+          <div class="card" style="height:100%;position:relative;">
+              <header class="card-header">
+                <h3 class="uk-h4 uk-text-bold uk-white uk-padding-small uk-margin-remove">{{ .heading }}</h3>
+              </header>
+              <div class="uk-padding-small uk-text-small">
+                {{ .subtitle | markdownify }}
+                <hr>
+              </div>
+  
+              <div class="card-content" style="padding-top:0">
+                <div class="content" style="height:100%">
+  
+                  <p>{{ .details | markdownify }}</p>
+                </div>
+              </div>
+  
+            </div>
+            <footer class="card-footer">
+              <p class="card-footer-item">{{ .price }}</p>
+              <a href="{{ .link }}" class="card-footer-item">Book</a>
+            </footer>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
 </div>

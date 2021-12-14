@@ -1,28 +1,27 @@
 {{ $intro := .Site.Data.home.introduction }}
-<div class="big-section about__container" style="background: url(/assets/hexbg.jpg) no-repeat center">
-    <div class="container">
-        <div class="columns is-variable is-8">
-            <div class="column">
-                <h2 class="title is-4 page-title">{{ $intro.heading | markdownify }}</h2>
-                <div class="line"></div>
-                {{ if $intro.body }}
-                <p class="mt-6">{{ $intro.body | markdownify }}</p>
-                {{ end }}
-                <div class="mt-6">
-                    <ul>
-                        {{ range $intro.amenities }}
-                            <li><svg xmlns="http://www.w3.org/2000/svg" class="icon-tabler icon-tabler-check" width="15" height="15" viewBox="0 0 24 24" stroke-width="2" stroke="#00697A" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                <path d="M5 12l5 5l10 -10" />
-                              </svg> {{ . }}</li>
-                        {{ end }}
-                    </ul>
-                </div>
+
+
+<div class="uk-section uk-section-large" style="background: url(/assets/hexbg.jpg) no-repeat center">
+    <div class="uk-container uk-container-large">
+        <div class="uk-child-width-1-2@s uk-grid-large" uk-grid>
+            <div>
+                <h2>{{ $intro.heading | markdownify }}</h2>
+                <p>{{ $intro.body | markdownify }}</p>
+                <ul class="uk-list">
+                    {{ range $intro.amenities }}
+                        <li><svg xmlns="http://www.w3.org/2000/svg" class="icon-tabler icon-tabler-check" width="15" height="15" viewBox="0 0 24 24" stroke-width="2" stroke="#00697A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M5 12l5 5l10 -10" />
+                          </svg> {{ . }}</li>
+                    {{ end }}
+                </ul>
             </div>
-            <div class="column">
-                {{ if $intro.image }}
-                <img src="{{ $intro.image }}" alt="{{ .Site.Data.profile.company_name }}" style="box-shadow:7px 15px 20px 0px #aeaeae">
-                {{ end }}
+            <div>
+                <div class="uk-text-center">
+                    {{ if $intro.image }}
+                    <img src="{{ $intro.image }}" alt="{{ .Site.Data.profile.company_name }}" style="box-shadow:7px 15px 20px 0px #aeaeae">
+                    {{ end }}
+                </div>
             </div>
         </div>
     </div>
