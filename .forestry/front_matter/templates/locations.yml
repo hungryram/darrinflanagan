@@ -2,6 +2,11 @@
 label: Locations
 hide_body: true
 fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
 - name: introduction
   type: field_group
   config: {}
