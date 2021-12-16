@@ -1,8 +1,5 @@
 {{ $branding := .Site.Data.appearance.branding }}
 
-
-
-
     <div class="uk-visible@s" uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky uk-dark; cls-inactive: uk-navbar-transparent; top: 200">
       <nav class="uk-navbar-container uk-navbar-transparent"{{ if not .IsHome }} style="border-bottom: 1px solid rgb(213 213 213 / 20%);"{{ end }}>
           <div class="uk-container uk-container-large" style="padding-top:10px;padding-bottom:10px;">
@@ -12,13 +9,10 @@
   
                   </div>
                   <div class="uk-navbar-right">
-                      <ul class="uk-navbar-nav uk-text-bold">
+                      <ul class="uk-navbar-nav">
                           <li><a href="/">Home</a></li>
-                          <li><a href="/videos">Videos</a></li>
-                          <li><a href="/photography">Photography</a></li>
-                          <li><a href="/contact">Contact</a></li>
-                          {{ if .Site.Data.profile.social_media.instagram }}<li><a href="{{ .Site.Data.profile.social_media.instagram }}" target="_blank">IG</a></li>{{ end }}
-                          {{ if .Site.Data.profile.social_media.facebook }}<li><a href="{{ .Site.Data.profile.social_media.facebook }}" target="_blank">FB</a></li>{{ end }}
+                          <li><a href="/videos">Locations</a></li>
+                          <li><a href="/photography">Contact</a></li>
                       </ul>
                   </div>
   
