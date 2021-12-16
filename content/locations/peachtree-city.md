@@ -5,19 +5,42 @@ body = ""
 bookable_spaces = []
 heading = ""
 [gallery_section]
-body_text = ""
-gallery = []
-heading = ""
+body_text = "Stop by anytime Monday – Friday, 9 am-5 pm for a tour or to say hello or [schedule an appointment](https://launchandgoworkspace.com/#contact-us) for an after-hours tour!"
+gallery = ["/uploads/img_0190-1.jpg", "/uploads/img_0191.jpg", "/uploads/img_0192.jpg", "/uploads/img_0193.jpg", "/uploads/img_0194.jpg", "/uploads/img_0195.jpg", "/uploads/office.jpg", "/uploads/office3.jpg"]
+heading = "Come Explore Our Workspaces"
 [introduction]
-amenities = []
-body = ""
-heading = "The Premier Coworking Space in Peachtree City"
-image = ""
+amenities = ["Online Dashboard & Free App", "Staffed Hours: 9am-5pm, Mon-Fri", "24/7 Access with Secure Keyless Entry", "Mail & Package Service", "Secure High Speed 1Gbps WiFi Internet", "Printer, Copier & Scanner Access", "Private Phone Booth", "Coffee, Tea & Sparkling Water", "Podcast Studio"]
+body = "Do your best work in our bright, modern spaces that are optimized to meet your professional needs. Select from beautifully designed open desks, private offices, meeting rooms, or the podcast studio. Launch and Go has flexible, comfortable, and inspiring spaces ready whenever you are, day or night."
+heading = "## Workspace **Amenities** Designed To Help Your Business Thrive"
+image = "/uploads/img_0191.jpg"
 [membership_options]
-body_text = ""
+body_text = "Tired of noisy coffee shops or being distracted at home? Join us at Launch and Go, where you can experience all the amenities of your own office on your schedule with none of the stress.\n\n**To get started, select a membership level and create your account.** Free Community Member accounts are available to everyone and can be used to purchase Day Passes or book a space on-demand without the monthly membership."
 button_link = ""
 button_text = ""
-heading = ""
-options = []
+heading = "Membership Options"
+[[membership_options.options]]
+details = "INCLUDED\n\n* **Print 125 B&W, 25 Color** A la carte: B&W 5¢. Color 20¢.\n* **Mail & Package Service**\n* **4 Meeting room hours/mo**"
+heading = "Hot Desk"
+link = "https://members.launchandgoworkspace.com/account/memberships/change?mcids=3632"
+price = "$175/mo"
+subtitle = "Use any available desk in the common area\n\n_Access 24/7_"
+[[membership_options.options]]
+details = "INCLUDED\n\n* **Print 125 B&W, 25 Color** A la carte: B&W 5¢. Color 20¢.\n* **Mail & Package Service** Use as your official business address\n* **4 Meeting room hours/mo**"
+heading = "Dedicated Desk"
+link = "https://members.launchandgoworkspace.com/account/memberships/change?mcids=3632"
+price = "$225/mo"
+subtitle = "A permanent desk just for you in the common area\n\n_Access 24/7_"
+[[membership_options.options]]
+details = "INCLUDED\n\n* **Print 125 B&W, 25 Color** A la carte: B&W 5¢, Color 20¢\n* **Mail & Package Service** Use as your official business address\n* **4 Meeting room hours/mo**"
+heading = "Private Office"
+link = ""
+price = "$350-$900/mo"
+subtitle = "Furnished, lockable office space for 1-3 people\n\n_Access 24/7_"
+[[membership_options.options]]
+details = "INCLUDED\n\n* **Day Pass 5-Pack for $75**"
+heading = "Day Pass"
+link = ""
+price = "$20/day"
+subtitle = "Use any available desk in the common area\n\n_1 day access, M-F, 9am-5pm_"
 
 +++
