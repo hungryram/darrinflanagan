@@ -2,8 +2,25 @@
 title = "Peachtree City"
 [bookable_spaces]
 body = ""
-bookable_spaces = []
-heading = ""
+heading = "Our Bookable Spaces"
+[[bookable_spaces.bookable_spaces]]
+details = "INCLUDED\n\n* **High Speed 1 Gbps WiFi Internet**\n* **Large Flat Screen 4k TV**\n* **HDMI Cable**\n* **Large Wall-mounted Whiteboard**"
+heading = "Meeting Room"
+link = ""
+price = "$35/hr"
+subtitle = "Perfect for meeting clients\n\n_Seats up to 8_"
+[[bookable_spaces.bookable_spaces]]
+details = "INCLUDED\n\n* **4 Microphones and Headsets**\n* **Mixing Board**\n* **High Speed 1 Gbps WiFi Internet**"
+heading = "Podcast Studio"
+link = ""
+price = "$35/hr"
+subtitle = "3 pricing options available\n\n_Seats up to 4_"
+[[bookable_spaces.bookable_spaces]]
+details = "INCLUDED\n\n* High Speed 1 Gbps WiFi Internet\n* Coffee, Tea, Hot Chocolate and Sparkling Water"
+heading = "Flex Office"
+link = ""
+price = "$50/day"
+subtitle = "Private office available for the day\n\n_1 day access, M-F, 9am-5pm_"
 [gallery_section]
 body_text = "Stop by anytime Monday – Friday, 9 am-5 pm for a tour or to say hello or [schedule an appointment](https://launchandgoworkspace.com/#contact-us) for an after-hours tour!"
 gallery = ["/uploads/img_0190-1.jpg", "/uploads/img_0191.jpg", "/uploads/img_0192.jpg", "/uploads/img_0193.jpg", "/uploads/img_0194.jpg", "/uploads/img_0195.jpg", "/uploads/office.jpg", "/uploads/office3.jpg"]
