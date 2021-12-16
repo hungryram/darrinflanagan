@@ -195,3 +195,5 @@ fields:
       labelField: 
     label: Bookable Spaces
   label: Bookable Spaces
+pages:
+- content/locations/peachtree-city.md
