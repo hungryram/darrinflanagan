@@ -7,6 +7,11 @@ fields:
   config:
     required: false
   label: Title
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Image
 - name: introduction
   type: field_group
   config: {}
