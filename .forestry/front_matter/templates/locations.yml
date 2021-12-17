@@ -201,4 +201,5 @@ fields:
     label: Bookable Spaces
   label: Bookable Spaces
 pages:
+- content/locations/norcross.md
 - content/locations/peachtree-city.md
