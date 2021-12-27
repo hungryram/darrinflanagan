@@ -1,16 +1,12 @@
 baseURL = "https://december2021--launchandgoworkspace.netlify.app/"
-languageCode = "en-us"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 enableRobotsTXT = "true"
-[[menu.main]]
-name = "Login"
-url = "https://members.launchandgoworkspace.com/login"
-weight = 3
+languageCode = "en-us"
 [[menu.main]]
 name = "Book a Space"
-url = "https://members.launchandgoworkspace.com/calendar"
-weight = 2
-[[menu.main]]
-name = "Events"
-url = "https://members.launchandgoworkspace.com/events"
+url = "https://launchandgoworkspaceptc.spaces.nexudus.com/signup"
 weight = 1
+[[menu.main]]
+name = "Login"
+url = "https://launchandgoworkspaceptc.spaces.nexudus.com/login"
+weight = 2
