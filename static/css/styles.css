@@ -29,7 +29,24 @@ h1.uk-text-medium-bold {
     font-weight: 600;
 }
 
+/* NAVBAR */
+
+ul.uk-navbar-nav>li>a {
+    color: #fff;
+}
+
+.uk-visible\@s.uk-sticky.uk-sticky-below.uk-sticky-fixed a {
+    color: #000;
+}
+
 /* FORM */
+
+.contact__form input.uk-input,
+.contact__form textarea.uk-textarea {
+    -webkit-appearance: none;
+    border: 1px solid rgb(192, 192, 192);
+    color: #000;
+}
 
 input.uk-input,
 textarea.uk-textarea {

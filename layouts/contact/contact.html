@@ -1,11 +1,11 @@
 {{ define "main" }}
-{{ $footerContact := .Site.Data.profile.contact_information }}
+{{ $footerContact := .Site.Data.profile.primary_contact }}
 {{ $optBlock := dict "display" "block" }}
 
 <div class="uk-section">
     <div class="uk-container">
         <div class="uk-grid-large" uk-grid>
-            <div class="uk-card uk-width-3-5@s">
+            <div class="uk-card uk-width-3-5@s contact__form">
                 
 
                 <h2>Send an email</h2>
@@ -38,14 +38,12 @@
             <div class="uk-card uk-width-expand@s">
                 <div class="uk-margin-medium-bottom">
                     <h2>Get in touch</h2>
-                    <p>Need a tour of our showroom? Visit us during our opening hours and our team will assist you.</p>
+                    <p>Have any inquiries or want to visit our locations? Get in touch with us today.</p>
                 </div>
                 <div>
                     <ul class="uk-list">
-                        <li><a href="mailto:info@ocambiance.com" class="uk-link-text">info@ocambiance.com</a></li>
-                        <li><a href="tel:949-825-5020" class="uk-link-text">949-825-5020</a></li>
-                        <li><a href="mailto:info@ocambiance.com" class="uk-link-text">16862 Red Hill Ave. Irvine, CA 92606</a></li>
-                        <li><a href="https://instagram.com/ambiancehome" uk-icon="icon: instagram"></a></li>
+                        <li><a href="mailto:{{ $footerContact.email }}" class="uk-link-text">{{ $footerContact.email }}</a></li>
+                        <li><a href="tel:{{ $footerContact.phone }}" class="uk-link-text">{{ $footerContact.phone }}</a></li>
                     </ul>
                 </div>
             </div>
