@@ -54,7 +54,7 @@
     </div>
 </div>
 
-{{ $memberOptions := .Params.membership_options }}
+{{ $memberOptions := .Params.plans }}
 <div class="uk-section" style="background: #fafafa">
   <div class="uk-container uk-container-large">
     <div class="uk-section">
@@ -100,40 +100,4 @@
   </div>
 </div>
 
-{{ $bookable := .Params.bookable_spaces }}
-<div class="uk-section" style="background: #fff;">
-  <div class="uk-container uk-container-large">
-    <div class="uk-margin-large-bottom">
-      <h2 class="uk-text-bold">{{ .Params.bookable_spaces.heading }}</h2>
-      <p>{{ .Params.bookable_spaces.body_text | markdownify }}</p>
-    </div>
-    <div class="uk-child-width-1-4@s uk-grid-small" uk-grid>
-      {{ range $bookable.bookable_spaces }}
-      <div>
-        <div class="card" style="height:100%;position:relative;">
-            <header class="card-header">
-              <h3 class="uk-h4 uk-text-bold uk-white uk-padding-small uk-margin-remove">{{ .heading }}</h3>
-            </header>
-            <div class="uk-padding-small">
-              {{ .subtitle | markdownify }}
-              <hr>
-            </div>
-
-            <div class="card-content">
-              <div class="content" style="height:100%">
-
-                <p>{{ .details | markdownify }}</p>
-              </div>
-            </div>
-
-          </div>
-          <footer class="card-footer">
-            <span class="card-footer-item">{{ .price }}</span>
-            <a href="{{ .link }}" class="card-footer-item">Book</a>
-          </footer>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</div>
 {{ end }}
