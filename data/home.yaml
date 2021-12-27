@@ -4,12 +4,15 @@ gallery_section:
   body_text: Our coworking spaces are located in Norcross and Peachtree City. Come
     by during our office hours for a visit!
   gallery:
+  - "/uploads/img_3919.jpg"
   - "/uploads/img_0193.jpg"
   - "/uploads/img_0192.jpg"
   - "/uploads/img_0191.jpg"
+  - "/uploads/img_3921.jpg"
   - "/uploads/img_0190-1.jpg"
   - "/uploads/img_0195.jpg"
   - "/uploads/img_0194.jpg"
+  - "/uploads/img_3915.jpg"
 membership_options:
   heading: Membership Options
   body_text: |-
@@ -25,7 +28,7 @@ membership_options:
       * **Mail & Package Service**
       * **4 Meeting room hours/mo**
     price: "$175/mo"
-    link: https://members.launchandgoworkspace.com/account/memberships/change?mcids=3632
+    link: https://launchandgoworkspaceptc.spaces.nexudus.com/signup
     subtitle: |-
       Use any available desk in the common area
 
@@ -42,7 +45,7 @@ membership_options:
       * **Mail & Package Service** Use as your official business address
       * **4 Meeting room hours/mo**
     price: "$225/mo"
-    link: https://members.launchandgoworkspace.com/account/memberships/change?mcids=3633
+    link: https://launchandgoworkspaceptc.spaces.nexudus.com/signup
   - heading: Private Office
     details: |-
       INCLUDED
@@ -51,7 +54,7 @@ membership_options:
       * **Mail & Package Service** Use as your official business address
       * **4 Meeting room hours/mo**
     price: "$350-$900/mo"
-    link: https://members.launchandgoworkspace.com/account/memberships/change?mcids=4071
+    link: https://launchandgoworkspaceptc.spaces.nexudus.com/signup
     subtitle: |-
       A furnished, lockable office space for 1-3 people
 
@@ -66,8 +69,8 @@ membership_options:
 
       * **Day Pass 5-Pack for $75**
     price: "$20/day"
-    link: https://members.launchandgoworkspace.com/account/memberships/change?mcids=3631
-  button_link: https://members.launchandgoworkspace.com/
+    link: https://launchandgoworkspaceptc.spaces.nexudus.com/signup
+  button_link: https://launchandgoworkspaceptc.spaces.nexudus.com/signup
   button_text: View All Options
 bookable_spaces:
   heading: Our Bookable Spaces
@@ -95,11 +98,11 @@ bookable_spaces:
       * **High Speed 1 Gbps WiFi Internet**
     heading: Podcast Studio
     subtitle: |-
-      3 pricing options available
+      3 pricing options available. **Not available at Norcross**
 
       _Seats up to 4_
     price: "$35/hr"
-    link: https://members.launchandgoworkspace.com/calendar
+    link: https://launchandgoworkspaceptc.spaces.nexudus.com/signup
   - details: |-
       INCLUDED
 
@@ -107,9 +110,9 @@ bookable_spaces:
       * Coffee, Tea, Hot Chocolate and Sparkling Water
     heading: Flex Office
     price: "$50/day"
-    link: https://members.launchandgoworkspace.com/calendar
+    link: https://launchandgoworkspaceptc.spaces.nexudus.com/signup
     subtitle: |-
-      Private office available for the day
+      Private office available for the day. **Not available at Norcross**
 
       _1 day access, M-F, 9am-5pm_
 footer:
@@ -117,10 +120,10 @@ footer:
     to schedule an office tour.\nMembers receive 24/7 building access"
 introduction:
   heading: Workspace **Amenities** Designed To Help Your Business Thrive
-  body: Do your best work in our bright, modern spaces that are optimized to meet
-    your professional needs. Select from beautifully designed open desks, private
-    offices, meeting rooms or the podcast studio. Launch and Go has flexible, comfortable
-    and inspiring spaces ready whenever you are, day or night.
+  body: |-
+    Do your best work in our bright, modern spaces that are optimized to meet your professional needs. Select from beautifully designed open desks, private offices, meeting rooms or the podcast studio. Launch and Go has flexible, comfortable and inspiring spaces ready whenever you are, day or night.
+
+    View our amenities for each location. Our offices are located in Peachtree City and Norcross.
   image: "/uploads/img_0191.jpg"
   amenities:
   - Podcast Studio
@@ -130,7 +133,6 @@ introduction:
   - Secure High Speed 1 Gbps WiFi Internet
   - Mail & Package Service
   - 24/7 Access with Secure Keyless Entry
-  - 'Staffed Hours: 9am-5pm, Mon-Fri'
   - Online Dashboard & Free App
 process:
   heading: Our Easy **3 Step** Process
