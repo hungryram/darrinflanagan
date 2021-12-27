@@ -8,7 +8,7 @@
           {{ if $memberOptions.body_text }}<p>{{ .Site.Data.home.membership_options.body_text | markdownify }}</p>{{ end }}
         </div>
         <div class="uk-width-expand@s uk-text-center">
-          <a href="" class="uk-button uk-button-secondary">View all options</a>
+          <a href="{{ $memberOptions.button_link }}" class="uk-button uk-button-secondary" target="_blank">View all options</a>
         </div>
       </div>
     </div>
