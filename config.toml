@@ -3,6 +3,10 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 enableRobotsTXT = "true"
 languageCode = "en-us"
 [[menu.main]]
+name = "Home"
+url = "/"
+weight = 2
+[[menu.main]]
 name = "Book a Space"
 url = "https://launchandgoworkspaceptc.spaces.nexudus.com/signup"
 weight = 2

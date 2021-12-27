@@ -10,9 +10,21 @@
                   </div>
                   <div class="uk-navbar-right">
                       <ul class="uk-navbar-nav">
-                          <li><a href="/">Home</a></li>
-                          <li><a href="/locations">Locations</a></li>
-                          <li><a href="/contact">Contact</a></li>
+                        {{ $currentPage := . }}
+                        {{ range .Site.Menus.main }}
+                        {{ if .HasChildren }}
+                        <li class="uk-parent">
+                            <a href="#" class="uk-text-light uk-text-center">{{ .Name }}</a>
+                            <ul class="uk-nav-sub">
+                                {{ range .Children }}
+                                <li><a href="{{ .URL | absURL }}" class="uk-text-light">{{ .Name }}</a></li>
+                                {{ end }}
+                            </ul>
+                        </li>
+                        {{ else }}
+                        <li><a href="{{ .URL | absURL }}" class="uk-text-light uk-flex-center">{{ .Name }}</a></li>
+                        {{ end }}
+                        {{ end }}
                       </ul>
                   </div>
   
