@@ -76,8 +76,7 @@ bookable_spaces:
   body: ''
   bookable_spaces:
   - heading: Meeting Room
-    subtitle: |-
-      Perfect for meeting clients
+    subtitle: Perfect for meeting clients
     price: "$35/hr"
     link: https://members.launchandgoworkspace.com/calendar
     details: |-
@@ -94,8 +93,7 @@ bookable_spaces:
       * **Mixing Board**
       * **High Speed 1 Gbps WiFi Internet**
     heading: Podcast Studio
-    subtitle: |-
-      3 pricing options available. **Not available at Norcross**
+    subtitle: 3 pricing options available. **Not available at Norcross**
     price: "$35/hr"
     link: https://launchandgoworkspaceptc.spaces.nexudus.com/signup
   - details: |-
@@ -106,18 +104,16 @@ bookable_spaces:
     heading: Flex Office
     price: "$50/day"
     link: https://launchandgoworkspaceptc.spaces.nexudus.com/signup
-    subtitle: |-
-      Private office available for the day. **Not available at Norcross**
+    subtitle: Private office available for the day. **Not available at Norcross**
 footer:
   footer_text: "Peachtree staff available Tuesday - Thursday from 10:00am - 3:00pm
     \ \nNorcross staff available Monday - Friday from 9:00am - 5:00pm  \nCall or email
     to schedule an office tour. Members receive 24/7 building access"
 introduction:
   heading: Workspace **Amenities** Designed To Help Your Business Thrive
-  body: |-
-    Do your best work in our bright, modern spaces that are optimized to meet your professional needs. Select from beautifully designed open desks, private offices, meeting rooms or the podcast studio. Launch and Go has flexible, comfortable and inspiring spaces ready whenever you are, day or night.
-
-    View our amenities for each location. Our offices are located in Peachtree City and Norcross.
+  body: You can choose from desks in the open works areas, private offices, a meeting
+    room, or the podcast studio. Launch and Go has flexible, comfortable, and inspiring
+    spaces ready whenever you are.
   image: "/uploads/img_0191.jpg"
   amenities:
   - Podcast Studio
