@@ -77,23 +77,19 @@
               <header class="card-header">
                 <h3 class="uk-h4 uk-text-bold uk-white uk-padding-small uk-margin-remove">{{ .heading }}</h3>
               </header>
-              <div class="uk-padding-small uk-text-small">
+              <div class="uk-padding-small">
                 {{ .subtitle | markdownify }}
-                <hr>
               </div>
   
-              <div class="card-content" style="padding-top:0">
+              <!-- <div class="card-content" style="padding-top:0">
                 <div class="content" style="height:100%">
   
                   <p>{{ .details | markdownify }}</p>
                 </div>
-              </div>
+              </div> -->
   
             </div>
-            <footer class="card-footer">
-              <span class="card-footer-item">{{ .price }}</span>
-              <a href="{{ .link }}" class="card-footer-item">Book</a>
-            </footer>
+
         </div>
         {{ end }}
       </div>
