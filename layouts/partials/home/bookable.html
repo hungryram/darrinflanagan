@@ -14,21 +14,8 @@
             </header>
             <div class="uk-padding-small">
               {{ .subtitle | markdownify }}
-              <hr>
             </div>
-
-            <div class="card-content">
-              <div class="content" style="height:100%">
-
-                <p>{{ .details | markdownify }}</p>
-              </div>
-            </div>
-
           </div>
-          <footer class="card-footer">
-            <span class="card-footer-item">{{ .price }}</span>
-            <a href="{{ .link }}" class="card-footer-item">Book</a>
-          </footer>
       </div>
       {{ end }}
     </div>
