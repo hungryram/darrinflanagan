@@ -25,6 +25,14 @@ body em {
     color: inherit;
 }
 
+.md__content a {
+    color: #f4b221;
+}
+
+.md__content a:hover {
+    color: #f4b221;
+}
+
 h1.uk-text-medium-bold {
     font-weight: 600;
 }

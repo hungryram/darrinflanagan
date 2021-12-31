@@ -31,7 +31,9 @@
 <div class="uk-section">
     <div class="uk-container uk-container-large">
         <h2 class="uk-text-bold">{{ .Params.gallery_section.heading }}</h2>
-        <p>{{ .Params.gallery_section.body_text | markdownify }}</p>
+        <div class="md__content">
+          <p>{{ .Params.gallery_section.body_text | markdownify }}</p>
+        </div>
         <div class="uk-margin-large-top">
             <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
 
