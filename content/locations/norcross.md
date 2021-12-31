@@ -6,9 +6,9 @@ body = ""
 bookable_spaces = []
 heading = ""
 [gallery_section]
-body_text = "View photos from the Norcross location. Come by during our office hours for a visit!"
+body_text = "Stop by anytime Monday – Friday, 9am-3pm or [schedule a tour](/contact)."
 gallery = ["/uploads/img_3919.jpg", "/uploads/img_3916.jpg", "/uploads/img_3915.jpg", "/uploads/img_3911.jpg"]
-heading = "Norcross Location Photos"
+heading = "Come Explore Our Norcross Workspace"
 [introduction]
 amenities = ["Printer, Copier & Scanner Access", "Coffee, Tea & Sparkling Water", "Online Dashboard & Free App", "Staffed Hours: 9am-5pm, Mon-Fri", " 24/7 Access with Secure Keyless Entry", "Secure High Speed 1 Gbps WiFi Internet"]
 body = "Launch and Go Workspace provides co-working space in Norcross, GA. With a conference room that seats up to 10, and larger offices can now accommodate up to 2-4 people. We invite you to visit our Norcross location during staffing hours."
