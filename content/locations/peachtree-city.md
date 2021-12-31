@@ -47,7 +47,7 @@ details = "INCLUDED\n\n* **Print 125 B&W, 25 Color** A la carte: B&W 5¢. Color 
 heading = "Dedicated Desk"
 link = "https://launchandgoworkspaceptc.spaces.nexudus.com/signup"
 price = "$225/mo"
-subtitle = "A permanent desk just for you in a semi-private office\n\n_Access 24/7_"
+subtitle = "A permanent desk just for you in the common area\n\n_Access 24/7_"
 [[membership_options.options]]
 details = "INCLUDED\n\n* **Print 125 B&W, 25 Color** A la carte: B&W 5¢, Color 20¢\n* **Mail & Package Service** Use as your official business address\n* **4 Meeting room hours/mo**"
 heading = "Private Office"
