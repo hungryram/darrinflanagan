@@ -1,7 +1,7 @@
 ---
 gallery_section:
   heading: Come Explore Our Workspaces in Norcross and Peachtree City
-  body_text: Stop by anytime Tuesday – Thursday between 10am-3pm or [schedule a tour](/contact).
+  body_text: Thursday between 10am-3pm or [schedule a tour](/contact).
   gallery:
   - "/uploads/img_0193.jpg"
   - "/uploads/img_0192.jpg"
@@ -130,10 +130,10 @@ process:
     started quickly.
   image: "/uploads/how_it_works_book.png"
   steps:
-  - heading: Book Your Space
-    body: Select the day you'd like to grab a Hot Desk or Meeting Room.
   - heading: Create Your Account
     body: Manage all your bookings & account options in your dashboard
+  - heading: Book Your Space
+    body: Select the day you'd like to grab a Hot Desk or Meeting Room.
   - heading: Add Payment
     body: Checkout online & you're done. It's that easy
 banner:
@@ -141,7 +141,7 @@ banner:
   body: Book a room or grab a Day Pass without a membership. If you'd like to become
     a member, see which option works for you.
   button_link: https://launchandgoworkspaceptc.spaces.nexudus.com/signup
-  button_label: See Options
+  button_label: Book Now
 hero:
   image: "/uploads/office3.jpg"
   subtitle: Peachtree City, Georgia

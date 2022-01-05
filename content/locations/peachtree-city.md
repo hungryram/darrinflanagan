@@ -23,7 +23,7 @@ link = ""
 price = "$50/day"
 subtitle = "Private office available for the day\n\n_1 day access, M-F, 9am-5pm_"
 [gallery_section]
-body_text = "Stop by anytime Tuesday – Thursday, 10am-3pm for a tour or to say hello or [schedule an appointment](/contact-us) for an after-hours tour!"
+body_text = "Stop by anytime Tuesday – Thursday, 10am-3pm for a tour or to say hello or [schedule a tour](/contact) for an after-hours tour!"
 gallery = ["/uploads/img_0190-1.jpg", "/uploads/img_0191.jpg", "/uploads/img_0192.jpg", "/uploads/img_0193.jpg", "/uploads/img_0194.jpg", "/uploads/img_0195.jpg", "/uploads/office.jpg", "/uploads/office3.jpg"]
 heading = "Come Explore Our Peachtree City Workspace"
 [introduction]
@@ -53,7 +53,7 @@ details = "INCLUDED\n\n* **Print 125 B&W, 25 Color** A la carte: B&W 5¢, Color 
 heading = "Private Office"
 link = "https://launchandgoworkspaceptc.spaces.nexudus.com/signup"
 price = "$350-$900/mo"
-subtitle = "Furnished, lockable office space for 1-3 people\n\n_Access 24/7_"
+subtitle = "Furnished, lockable office space for 1-4 people\n\n_Access 24/7_"
 [[membership_options.options]]
 details = "INCLUDED\n\n* **Day Pass 5-Pack for $75**"
 heading = "Day Pass"
