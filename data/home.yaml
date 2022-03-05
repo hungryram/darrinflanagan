@@ -1,7 +1,7 @@
 ---
 gallery_section:
   heading: Come Explore Our Workspaces in Norcross and Peachtree City
-  body_text: Thursday between 10am-3pm or [schedule a tour](/contact).
+  body_text: "[Schedule a tour](/contact)."
   gallery:
   - "/uploads/img_0193.jpg"
   - "/uploads/img_0192.jpg"
@@ -54,7 +54,7 @@ membership_options:
     price: "$350-$900/mo"
     link: https://members.launchandgoworkspace.com/account/memberships/change
     subtitle: |-
-      A furnished, lockable office space for 1-3 people
+      A furnished, lockable office space for 1-4 people
 
       _Access 24/7_
   - heading: Day Pass
