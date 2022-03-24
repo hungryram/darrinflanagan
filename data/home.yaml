@@ -140,8 +140,8 @@ banner:
   heading: A la Carte and Memberships Available
   body: Book a room or grab a Day Pass without a membership. If you'd like to become
     a member, see which option works for you.
-  button_link: https://members.launchandgoworkspace.com/account/memberships/change
-  button_label: Book Now
+  button_link: 
+  button_label: 
 hero:
   image: "/uploads/office3.jpg"
   subtitle: Peachtree City, Georgia

@@ -1,13 +1,14 @@
 +++
 image = "/uploads/img_0190-1.jpg"
 title = "Peachtree City"
+url = "peachtreecity"
 [bookable_spaces]
 body = ""
 heading = "Our Bookable Spaces"
 [[bookable_spaces.bookable_spaces]]
 details = "INCLUDED\n\n* **High Speed 1 Gbps WiFi Internet**\n* **Large Flat Screen 4k TV**\n* **HDMI Cable**\n* **Large Wall-mounted Whiteboard**"
 heading = "Meeting Room"
-link = "https://members.launchandgoworkspace.com/account/memberships/change"
+link = "https://synergyworkspace.app.proximity.space/"
 price = "$35/hr"
 subtitle = "Perfect for meeting clients\n\n_Seats up to 8_"
 [[bookable_spaces.bookable_spaces]]
@@ -33,31 +34,31 @@ heading = "## Workspace **Amenities** Designed To Help Your Business Thrive"
 image = "/uploads/img_0191.jpg"
 [membership_options]
 body_text = "Tired of noisy coffee shops or being distracted at home? Join us at Launch and Go, where you can experience all the amenities of your own office on your schedule with none of the stress.\n\n**To get started, select a membership level and create your account.** Free Community Member accounts are available to everyone and can be used to purchase Day Passes or book a space on-demand without the monthly membership."
-button_link = "https://members.launchandgoworkspace.com/account/memberships/change"
+button_link = "https://synergyworkspace.app.proximity.space/"
 button_text = "Become a member"
 heading = "Membership Options"
 [[membership_options.options]]
 details = "INCLUDED\n\n* **Print 125 B&W, 25 Color** A la carte: B&W 5¢. Color 20¢.\n* **Mail & Package Service**\n* **4 Meeting room hours/mo**"
 heading = "Hot Desk"
-link = "https://members.launchandgoworkspace.com/account/memberships/change"
+link = "https://synergyworkspace.app.proximity.space/"
 price = "$175/mo"
 subtitle = "Use any available desk in the common area\n\n_Access 24/7_"
 [[membership_options.options]]
 details = "INCLUDED\n\n* **Print 125 B&W, 25 Color** A la carte: B&W 5¢. Color 20¢.\n* **Mail & Package Service** Use as your official business address\n* **4 Meeting room hours/mo**"
 heading = "Dedicated Desk"
-link = "https://members.launchandgoworkspace.com/account/memberships/change"
+link = "https://synergyworkspace.app.proximity.space/"
 price = "$225/mo"
 subtitle = "A permanent desk just for you in the common area\n\n_Access 24/7_"
 [[membership_options.options]]
 details = "INCLUDED\n\n* **Print 125 B&W, 25 Color** A la carte: B&W 5¢, Color 20¢\n* **Mail & Package Service** Use as your official business address\n* **4 Meeting room hours/mo**"
 heading = "Private Office"
-link = "https://members.launchandgoworkspace.com/account/memberships/change"
+link = "https://synergyworkspace.app.proximity.space/"
 price = "$350-$900/mo"
 subtitle = "Furnished, lockable office space for 1-4 people\n\n_Access 24/7_"
 [[membership_options.options]]
 details = "INCLUDED\n\n* **Day Pass 5-Pack for $75**"
 heading = "Day Pass"
-link = "https://members.launchandgoworkspace.com/account/memberships/change"
+link = "https://synergyworkspace.app.proximity.space/"
 price = "$20/day"
 subtitle = "Use any available desk in the common area\n\n_1 day access, M-F, 9am-5pm_"
 

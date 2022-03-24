@@ -1,6 +1,7 @@
 +++
 image = "/uploads/img_3921.jpg"
 title = "Norcross"
+url = "/norcross"
 [bookable_spaces]
 body = ""
 bookable_spaces = []
@@ -16,7 +17,7 @@ heading = "Workspace Designed to Help Your Business Thrive"
 image = ""
 [membership_options]
 body_text = "We offer multiple membership plans for our Norcross location."
-button_link = "https://launchandgoworkspacenorcross.spaces.nexudus.com/signup"
+button_link = "https://members.launchandgoworkspace.com/account/memberships/change"
 button_text = "Become a member"
 heading = "Our Plans"
 [[membership_options.options]]

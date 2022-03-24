@@ -23,17 +23,12 @@
 <div class="uk-section" style="padding-top:0;background: #fafafa">
     <div class="uk-container uk-container-large uk-padding uk-light" style="background: #f4b221">
         <div class="uk-flex uk-flex-middle uk-padding-small" uk-grid>
-            <div class="uk-width-3-5@s">
+            <div class="uk-width-1-1@s uk-text-center">
                 {{ if $banner.heading }}
                 <h2 class="uk-text-bold">{{ $banner.heading }}</h2>
                 {{ end }}
                 {{ if $banner.body }}
                 <p>{{ $banner.body | markdownify }}</p>
-                {{ end }}
-            </div>
-            <div class="uk-width-expand uk-text-center">
-                {{ if $banner.button_link }}
-                <a href="{{ $banner.button_link }}" class="uk-button uk-button-secondary">{{ $banner.button_label }}</a>
                 {{ end }}
             </div>
         </div>
