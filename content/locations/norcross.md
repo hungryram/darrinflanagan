@@ -1,5 +1,5 @@
 +++
-image = "/uploads/img_3921.jpg"
+image = "https://res.cloudinary.com/hungryram19/image/upload/v1648077533/darrin-flanagan/launch-and-go-workspace/Conference_Room2.jpg"
 title = "Norcross"
 url = "/norcross"
 [bookable_spaces]
