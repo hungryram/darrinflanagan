@@ -3,14 +3,24 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 enableRobotsTXT = "true"
 languageCode = "en-us"
 [[menu.main]]
-name = "Home"
-url = "/"
+name = "Norcross Login"
+parent = "Login"
+url = "https://synergyworkspace.app.proximity.space/login/true"
+weight = 2
+[[menu.main]]
+name = "Peachtree Login"
+parent = "Login"
+url = "https://members.launchandgoworkspace.com/login/true"
 weight = 1
+[[menu.main]]
+name = "Login"
+url = "https://members.launchandgoworkspace.com/login/true"
+weight = 4
 [[menu.main]]
 name = "Book a Space"
 url = "https://members.launchandgoworkspace.com/account/memberships/change"
 weight = 3
 [[menu.main]]
-name = "Login"
-url = "https://members.launchandgoworkspace.com/login/true"
-weight = 4
+name = "Home"
+url = "/"
+weight = 1
