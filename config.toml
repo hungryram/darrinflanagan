@@ -7,10 +7,6 @@ name = "Home"
 url = "/"
 weight = 1
 [[menu.main]]
-name = "Book a Space"
-url = "https://members.launchandgoworkspace.com/account/memberships/change"
-weight = 3
-[[menu.main]]
 name = "Login"
 url = "https://members.launchandgoworkspace.com/login/true"
 weight = 4
