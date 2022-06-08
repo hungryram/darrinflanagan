@@ -10,7 +10,3 @@ weight = 3
 name = "Book a Space"
 url = "https://members.launchandgoworkspace.com/calendar"
 weight = 2
-[[menu.main]]
-name = "Events"
-url = "https://members.launchandgoworkspace.com/events"
-weight = 1
