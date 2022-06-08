@@ -4,9 +4,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 enableRobotsTXT = "true"
 [[menu.main]]
 name = "Login"
-url = "https://members.launchandgoworkspace.com/login"
+url = "https://peachtreecity.launchandgoworkspace.com/login"
 weight = 3
 [[menu.main]]
 name = "Book a Space"
-url = "https://members.launchandgoworkspace.com/calendar"
+url = "https://peachtreecity.launchandgoworkspace.com/calendar"
 weight = 2
