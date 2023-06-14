@@ -3,6 +3,10 @@ languageCode = "en-us"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 enableRobotsTXT = "true"
 [[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+[[menu.main]]
 name = "Login"
 url = "https://peachtreecity.launchandgoworkspace.com/login"
 weight = 3
