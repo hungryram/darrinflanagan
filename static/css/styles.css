@@ -244,3 +244,11 @@ ul.footer-social li {
     display: inline-block;
     margin-right: 15px;
 }
+
+.contactPage textarea, input {
+    color: black!important;
+}
+
+.footer textarea, input {
+    color: #5c5c5c!important;
+}

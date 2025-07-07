@@ -9,3 +9,9 @@
   to = "https://www.launchandgoworkspace.com"
   status = 301
   force = true #COMMENT: ensure that we always redirect
+
+    [[redirects]]
+  from = "https://www.launchandgoworkspace.com/Thanks"
+  to = "https://www.launchandgoworkspace.com/thank-you"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
