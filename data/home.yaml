@@ -24,7 +24,7 @@ membership_options:
       * **Print 125 B&W, 25 Color** A la carte: B&W 5¢. Color 20¢.
       * **Mail & Package Service**
       * **4 Meeting room hours/mo**
-    price: "$175/mo"
+    price: "$200/mo"
     link: https://peachtreecity.launchandgoworkspace.com/account/memberships/change?mcids=3632
     subtitle: |-
       Use any available desk in the common area
@@ -41,7 +41,7 @@ membership_options:
       * **Print 125 B&W, 25 Color** A la carte: B&W 5¢. Color 20¢.
       * **Mail & Package Service** Use as your official business address
       * **4 Meeting room hours/mo**
-    price: "$225/mo"
+    price: "$250/mo"
     link: https://peachtreecity.launchandgoworkspace.com/account/memberships/change?mcids=3633
   - heading: Private Office
     details: |-
@@ -64,8 +64,8 @@ membership_options:
     details: |-
       INCLUDED
 
-      * **Day Pass 5-Pack for $75**
-    price: "$20/day"
+      * **Day Pass 5-Pack for $100**
+    price: "$25/day"
     link: https://peachtreecity.launchandgoworkspace.com/account/memberships/change?mcids=3631
   button_link: https://peachtreecity.launchandgoworkspace.com/
   button_text: View All Options
@@ -78,7 +78,7 @@ bookable_spaces:
       Perfect for meeting clients
 
       _Seats up to 6_
-    price: "$35/hr"
+    price: "$50/hr"
     link: https://peachtreecity.launchandgoworkspace.com/calendar
     details: |-
       INCLUDED
