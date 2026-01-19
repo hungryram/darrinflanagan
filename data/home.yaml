@@ -67,7 +67,7 @@ membership_options:
       * **Day Pass 5-Pack for $100**
     price: "$25/day"
     link: https://peachtreecity.launchandgoworkspace.com/account/memberships/change?mcids=3631
-  button_link: https://peachtreecity.launchandgoworkspace.com/
+  button_link: https://peachtreecity.launchandgoworkspace.com/account/memberships/change
   button_text: View All Options
 bookable_spaces:
   heading: Our Bookable Space
