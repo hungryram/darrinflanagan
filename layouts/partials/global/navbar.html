@@ -1,11 +1,11 @@
 {{ $branding := .Site.Data.appearance.branding }}
-<nav class="navbar" role="navigation" aria-label="main navigation" style="border-bottom:1px solid #939393;">
+<nav class="navbar" role="navigation" aria-label="main navigation" style="border-bottom:1px solid #939393;background-color: #fff;">
     <div class="container">  
     <div class="navbar-brand">
       
         <a class="navbar-item" href="{{ .Site.BaseURL }}">
             {{ if $branding.logo }}
-            <img src="{{ $branding.logo }}" alt="Launch and Go Workspace">
+            <img src="{{ $branding.logo }}" alt="Go Workspace">
             {{ else }}
             <h1 class="title is-4">{{ $branding.site_title }}</h1>
             {{ end }}

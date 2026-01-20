@@ -13,7 +13,7 @@ gallery_section:
 membership_options:
   heading: Membership Options
   body_text: |-
-    Tired of noisy coffee shops or being distracted at home? Join us at Launch and Go, where you can experience all the amenities of your own office on your schedule with none of the stress.
+    Tired of noisy coffee shops or being distracted at home? Join us at Go Workspace, where you can experience all the amenities of your own office on your schedule with none of the stress.
 
     **To get started, select a membership level and create your account.** Free Community Member accounts are available to everyone and can be used to purchase Day Passes or book a space on-demand without the monthly membership.
   options:
@@ -22,7 +22,6 @@ membership_options:
       INCLUDED
 
       * **Print 125 B&W, 25 Color** A la carte: B&W 5¢. Color 20¢.
-      * **Mail & Package Service**
       * **4 Meeting room hours/mo**
     price: "$200/mo"
     link: https://peachtreecity.launchandgoworkspace.com/account/memberships/change?mcids=3632
@@ -39,16 +38,21 @@ membership_options:
       INCLUDED
 
       * **Print 125 B&W, 25 Color** A la carte: B&W 5¢. Color 20¢.
-      * **Mail & Package Service** Use as your official business address
       * **4 Meeting room hours/mo**
     price: "$250/mo"
+    link: https://peachtreecity.launchandgoworkspace.com/account/memberships/change?mcids=3633
+  - heading: Virtual Suite
+    details: |-
+      INCLUDED
+
+      Get a physical business address to register with Google/Apple Maps! You also get the ability to receive mail and packages sent to your new business address!
+    price: "$30/mo"
     link: https://peachtreecity.launchandgoworkspace.com/account/memberships/change?mcids=3633
   - heading: Private Office
     details: |-
       INCLUDED
 
       * **Print 125 B&W, 25 Color** A la carte: B&W 5¢, Color 20¢
-      * **Mail & Package Service** Use as your official business address
       * **4 Meeting room hours/mo**
     price: "$350-$900/mo"
     link: https://peachtreecity.launchandgoworkspace.com/account/memberships/change?mcids=4071
@@ -60,7 +64,7 @@ membership_options:
     subtitle: |-
       Use any available desk in the common area
 
-      _1 day access, M-F, 9am-5pm_
+      _1 day access, M-F, 8am-5pm_
     details: |-
       INCLUDED
 
@@ -94,7 +98,7 @@ introduction:
   heading: Workspace **Amenities** Designed To Help Your Business Thrive
   body: Do your best work in our bright, modern spaces that are optimized to meet
     your professional needs. Select from beautifully designed open desks, private
-    offices, or meeting rooms.. Launch and Go has flexible, comfortable
+    offices, or meeting rooms.. Go Workspace has flexible, comfortable
     and inspiring spaces ready whenever you are, day or night.
   image: "/uploads/img_0191.jpg"
   amenities:
@@ -107,7 +111,7 @@ introduction:
   - Online Dashboard & Free App
 process:
   heading: Our Easy **3 Step** Process
-  body: Launch and Go Workspace focuses on an easy 3 step process to help you get
+  body: Go Workspace focuses on an easy 3 step process to help you get
     started quickly.
   image: "/uploads/how_it_works_book.png"
   steps:

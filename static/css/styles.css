@@ -106,15 +106,12 @@ div.banner a.primary-btn {
 @media screen and (min-width: 768px){
     a.navbar-item {
         transition: .3s ease;
-        color: #fff;
+        color: #000;
     }
 }
 
-.navbar-burger span {
-    color: #fff;
-}
 
-.hero nav.navbar {
+nav.navbar {
     padding: 10px;
 }
 
