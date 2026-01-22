@@ -11,7 +11,7 @@
             <div class="columns">
                 <div class="column is-three-fifths">
                     {{ if $hero.subtitle }}
-                    <h2 class="subtitle mb-6" style="color:#F4B221">{{ $hero.subtitle }}</h2>
+                    <h2 class="subtitle mb-6" style="color:#fff">{{ $hero.subtitle }}</h2>
                     {{ end }}
                     {{ if $hero.heading }}
                     <h1 class="title has-text-white is-2">{{ $hero.heading }}</h1>
@@ -22,7 +22,7 @@
                         <br>
                         <br>
                         {{ if $hero.button_link }}
-                        <a href="{{ $hero.button_link }}" class="hero-btn">{{ $hero.button_label }}</a>
+                        <a href="{{ $hero.button_link }}" class="hero-btn has-text-white">{{ $hero.button_label }}</a>
                         {{ end }}
                 </div>
             </div>

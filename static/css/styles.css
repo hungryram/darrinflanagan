@@ -19,20 +19,27 @@ div.page-banner {
 }
 
 a.primary-link {
-    color: #F4B221;
+    color: #3EBB87;
     transition: .3s ease;
     position: relative;
 }
 
 a.primary-link:hover {
-    color: #bb850f;
+    color: #3EBB87;
     transition: .3s ease;
+    color: #fff;
 }
 
 a.primary-btn {
-    background: #F4B221;
+    background: #06364a;
     color: #fff;
     padding: 15px 30px;
+}
+
+a.primary-btn:hover {
+    background: #3EBB87;
+    transition: .3s ease;
+    color: #fff;
 }
 
 a.secondary-btn,
@@ -43,7 +50,7 @@ button.primary-btn {
 }
 
 div.line {
-    background: #F4B221;
+    background: #3EBB87;
     width: 100px;
     height: 3px;
     margin: 10px 0;
@@ -73,7 +80,7 @@ h3.page-title strong,
 h4.page-title strong,
 h5.page-title strong,
 h6.page-title strong {
-    color: #F4B221;
+    color: #3EBB87;
 }
 
 body h1.subtitle,
@@ -93,7 +100,7 @@ li {
 }
 
 div.banner {
-    background: #F4B221;
+    background: #06364a;
     padding: 50px 30px;
 }
 
@@ -120,7 +127,7 @@ a.navbar-item img {
 }
 
 a.navbar-item.cta-nav {
-    background: #F4B221;
+    background: #06364a;
     transition: .3s ease;
     color: #fff;
 
@@ -128,12 +135,12 @@ a.navbar-item.cta-nav {
 
 div a.navbar-item:hover {
     background:transparent;
-    color: #00697A;
+    color: #fff;
     transition: .3s ease;
 }
 
 div a.navbar-item.cta-nav:hover {
-    background: #F4B221;
+    background: #3EBB87;
 }
 
 
@@ -149,7 +156,7 @@ div.hero-foot > .container {
 div.hero-foot a.primary-link:after {
     content: "";
     position: absolute;
-    background: #F4B221;
+    background: #3EBB87;
     width: 100%;
     height: 1px;
     top: 12px;
@@ -157,9 +164,15 @@ div.hero-foot a.primary-link:after {
 }
 
 a.hero-btn {
-    background: #F4B221;
+    background: #06364a;
     padding: 15px 30px;
-    color: #000000;
+    color: #fff;
+}
+
+a.hero-btn:hover {
+    background: #3EBB87;
+    transition: .3s ease;
+    color: #fff;
 }
 
 /* ABOUT */
@@ -177,13 +190,13 @@ div.about__container ul li {
 /* MEMBER OPTIONS */
 
 header.card-header {
-    background: #00697A;
+    background: #3EBB87;
 }
 
 /* FEAUTURED */
 
 div.featured__container {
-    background: #F4B221;
+    background: #06364a;
     margin-top: 100px;
     padding: 25px;
 }
@@ -199,7 +212,7 @@ footer.card-footer p {
 }
 
 footer.card-footer a {
-    background: #F4B221;
+    background: #06364a;
     color: #fff;
 }
 
