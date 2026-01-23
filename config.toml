@@ -1,4 +1,4 @@
-baseURL = "https://www.launchandgoworkspace.com/"
+baseURL = "https://www.mygospace.net/"
 languageCode = "en-us"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 enableRobotsTXT = "true"

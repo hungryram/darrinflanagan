@@ -1,17 +1,33 @@
+# Redirect old domain to new domain
+[[redirects]]
+  from = "https://www.launchandgoworkspace.com/*"
+  to = "https://www.mygospace.net/:splat"
+  status = 301
+  force = true #COMMENT: redirect old domain to new
+
+[[redirects]]
+  from = "https://launchandgoworkspace.com/*"
+  to = "https://www.mygospace.net/:splat"
+  status = 301
+  force = true #COMMENT: redirect old domain to new
+
+# Redirect Netlify subdomain to new domain
 [[redirects]]
   from = "https://launchandgoworkspace.netlify.app/*"
-  to = "https://www.launchandgoworkspace/:splat"
+  to = "https://www.mygospace.net/:splat"
   status = 301
   force = true #COMMENT: ensure that we always redirect
 
-  [[redirects]]
-  from = "https://launchandgoworkspace.com"
-  to = "https://www.launchandgoworkspace.com"
+# Ensure www subdomain for new domain
+[[redirects]]
+  from = "https://mygospace.net/*"
+  to = "https://www.mygospace.net/:splat"
   status = 301
-  force = true #COMMENT: ensure that we always redirect
+  force = true #COMMENT: ensure www subdomain
 
-    [[redirects]]
-  from = "https://www.launchandgoworkspace.com/Thanks"
-  to = "https://www.launchandgoworkspace.com/thank-you"
+# Page-specific redirects
+[[redirects]]
+  from = "https://www.mygospace.net/Thanks"
+  to = "https://www.mygospace.net/thank-you"
   status = 301
-  force = true #COMMENT: ensure that we always redirect
+  force = true #COMMENT: redirect Thanks to thank-you
