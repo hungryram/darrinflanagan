@@ -1,4 +1,4 @@
-baseURL = "https://www.mygospace.net/"
+baseURL = "https://www.mygospace.com/"
 languageCode = "en-us"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 enableRobotsTXT = "true"
