@@ -379,8 +379,8 @@ fields:
       min: 
       max: 
       labelField: 
-    label: Bookable Space
-  label: Bookable Space
+    label: Bookable Spaces
+  label: Bookable Spaces
 - name: footer
   type: field_group
   config: {}

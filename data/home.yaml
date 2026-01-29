@@ -4,12 +4,12 @@ gallery_section:
   body_text: Click on
     [this link to schedule an appointment](https://mygospace.com/contact) or [call](tel:678-723-6064) to schedule a tour
   gallery:
-  - "/uploads/img_0193.jpg"
-  - "/uploads/img_0192.jpg"
-  - "/uploads/img_0191.jpg"
-  - "/uploads/img_0190-1.jpg"
-  - "/uploads/img_0195.jpg"
-  - "/uploads/img_0194.jpg"
+    - "/uploads/img_0193.jpg"
+    - "/uploads/img_0192.jpg"
+    - "/uploads/img_0191.jpg"
+    - "/uploads/img_0190-1.jpg"
+    - "/uploads/img_0195.jpg"
+    - "/uploads/img_0194.jpg"
 membership_options:
   heading: Membership Options
   body_text: |-
@@ -17,128 +17,148 @@ membership_options:
 
     **To get started, select a membership level and create your account.** Free Community Member accounts are available to everyone and can be used to purchase Day Passes or book a space on-demand without the monthly membership.
   options:
-  - heading: Hot Desk
-    details: |-
-      INCLUDED
+    - heading: Hot Desk
+      details: |-
+        INCLUDED
 
-      * **Print 125 B&W, 25 Color** A la carte: B&W 5¢. Color 20¢.
-      * **4 Meeting room hours/mo**
-    price: "$200/mo"
-    link: https://peachtreecity.launchandgoworkspace.com/account/memberships/change?mcids=3632
-    subtitle: |-
-      Use any available desk in the common area
+        * Access to any open workspace area
+        * High-speed internet and printer/copier access
+        * Virtual Suite included
+        * Includes **4 hours of meeting room use per month**
+      price: "$200/mo"
+      link: https://peachtreecity.launchandgoworkspace.com/account/memberships/change?mcids=3632
+      subtitle: |-
+        Use any available desk in the common area
 
-      _Access 24/7_
-  - heading: Dedicated Desk
-    subtitle: |-
-      A permanent desk just for you in the common area
+        _Access 24/7_
+    - heading: Dedicated Desk
+      subtitle: |-
+        A permanent desk just for you in the common area
 
-      _Access 24/7_
-    details: |-
-      INCLUDED
+        _Access 24/7_
+      details: |-
+        INCLUDED
 
-      * **Print 125 B&W, 25 Color** A la carte: B&W 5¢. Color 20¢.
-      * **4 Meeting room hours/mo**
-    price: "$250/mo"
-    link: https://peachtreecity.launchandgoworkspace.com/account/memberships/change?mcids=3633
-  - heading: Virtual Suite
-    details: |-
-      INCLUDED
+        * Desk assigned solely to you
+        * Leave your computer, monitor, and personal items set up
+        * High-speed internet and printer/copier access
+        * Virtual Suite included
+        * Personal filing cabinet
+        * Includes **4 hours of meeting room use per month**
+      price: "$250/mo"
+      link: https://peachtreecity.launchandgoworkspace.com/account/memberships/change?mcids=3633
+    - heading: Virtual Suite
+      details: |-
+        INCLUDED
 
-      Get a physical business address to register with Google/Apple Maps! You also get the ability to receive mail and packages sent to your new business address!
-    price: "$30/mo"
-    link: https://peachtreecity.launchandgoworkspace.com/account/memberships/change?mcids=3633
-  - heading: Private Office
-    details: |-
-      INCLUDED
+        Get a physical business address to register with Google/Apple Maps! You also get the ability to receive mail and packages sent to your new business address!
+      price: "$30/mo"
+      link: https://peachtreecity.launchandgoworkspace.com/account/memberships/change?mcids=3633
+    - heading: Private Office
+      details: |-
+        INCLUDED
 
-      * **Print 125 B&W, 25 Color** A la carte: B&W 5¢, Color 20¢
-      * **4 Meeting room hours/mo**
-    price: "$350-$900/mo"
-    link: https://peachtreecity.launchandgoworkspace.com/account/memberships/change?mcids=4071
-    subtitle: |-
-      A furnished, lockable office space for 1-3 people
+        * Fully furnished and lockable
+        * Personal filing cabinet
+        * High-speed internet and printer/copier access
+        * Virtual Suite included
+        * Includes **4 hours of meeting room use per month**
+      price: "$350-$900/mo"
+      link: https://peachtreecity.launchandgoworkspace.com/account/memberships/change?mcids=4071
+      subtitle: |-
+        A furnished, lockable office space for 1-3 people
 
-      _Access 24/7_
-  - heading: Day Pass
-    subtitle: |-
-      Use any available desk in the common area
+        _Access 24/7_
+    - heading: Day Pass
+      subtitle: |-
+        Use any available desk in the common area
 
-      _1 day access, M-F, 8am-5pm_
-    details: |-
-      INCLUDED
+        _1 day access, M-F, 8am-5pm_
+      details: |-
+        INCLUDED
 
-      * **Day Pass 5-Pack for $100**
-    price: "$25/day"
-    link: https://peachtreecity.launchandgoworkspace.com/account/memberships/change?mcids=3631
+        * Access to any open workspace area
+        * High-speed Wi-Fi
+        * Complimentary fresh coffee, hot tea and filtered water
+        * No long-term commitment
+      price: "$25/day (or 5 for $100/month)"
+      link: https://peachtreecity.launchandgoworkspace.com/account/memberships/change?mcids=3631
   button_link: https://peachtreecity.launchandgoworkspace.com/account/memberships/change
   button_text: View All Options
 bookable_spaces:
-  heading: Our Bookable Space
-  body: ''
+  heading: Our Bookable Spaces
+  body: ""
   bookable_spaces:
-  - heading: Meeting Room
-    subtitle: |-
-      Perfect for meeting clients
+    - heading: Podcast Room
+      subtitle: |-
 
-      _Seats up to 6_
-    price: "$50/hr"
-    link: https://peachtreecity.launchandgoworkspace.com/calendar
-    details: |-
-      INCLUDED
+      price: "$50/hr"
+      link: https://peachtreecity.launchandgoworkspace.com/calendar
+      details: |-
+        INCLUDED
 
-      * **High Speed 1 Gbps WiFi Internet**
-      * **Large Flat Screen 4k TV**
-      * **HDMI Cable**
-      * **Large Wall-mounted Whiteboard**
+        * Fully equipped studio designed for high-quality audio recording
+        * Includes 2 headphones and 2 microphones
+        * Rodecaster Pro II podcast recorder
+        * Accommodates 1 to 3 cast and crew members
+    - heading: Meeting Room
+      subtitle: |-
+        Perfect for meeting clients
+
+        _Seats up to 7_
+      price: "$50/hr"
+      link: https://peachtreecity.launchandgoworkspace.com/calendar
+      details: |-
+        INCLUDED
+
+        * 4K TV with HDMI hookup
+        * High-speed Wi-Fi
+        * Whiteboards
+        * Complimentary coffee, tea, and sparkling water
+
 footer:
   footer_text: "\nCall or email
     to schedule an office tour.\nMembers receive 24/7 building access"
 introduction:
   heading: Workspace **Amenities** Designed To Help Your Business Thrive
-  body: Do your best work in our bright, modern spaces that are optimized to meet
-    your professional needs. Select from beautifully designed open desks, private
-    offices, or meeting rooms.. Go Workspace has flexible, comfortable
-    and inspiring spaces ready whenever you are, day or night.
+  body: Do your best work in our bright, modern spaces designed to support your professional needs. Choose from beautifully appointed open desks, private offices, or meeting rooms. Go Workspace offers flexible, comfortable, and inspiring environments—ready whenever you are, day or night.
   image: "/uploads/img_0191.jpg"
   amenities:
-  - Coffee, Tea & Sparkling Water
-  - Private Phone Booth
-  - Printer, Copier & Scanner Access
-  - Secure High Speed 1 Gbps WiFi Internet
-  - Mail & Package Service
-  - 24/7 Access with Secure Keyless Entry
-  - Online Dashboard & Free App
+    - Coffee, Tea & Sparkling Water
+    - Private Phone Booth
+    - Printer, Copier & Scanner Access
+    - Secure High Speed 1 Gbps WiFi Internet
+    - Mail & Package Service
+    - 24/7 Access with Secure Keyless Entry
+    - Online Dashboard & Free App
 process:
   heading: Our Easy **3 Step** Process
   body: Go Workspace focuses on an easy 3 step process to help you get
     started quickly.
   image: "/uploads/how_it_works_book.png"
   steps:
-  - heading: Book Your Space
-    body: Select the day you'd like to grab a Hot Desk or Meeting Room.
-  - heading: Create Your Account
-    body: Manage all your bookings & account options in your dashboard
-  - heading: Add Payment
-    body: Checkout online & you're done. It's that easy
+    - heading: Book Your Space
+      body: Select the day you'd like to grab a Hot Desk or Meeting Room.
+    - heading: Create Your Account
+      body: Manage all your bookings & account options in your dashboard.
+    - heading: Add Payment
+      body: Checkout online & you're done. It's that easy.
 banner:
   heading: A la Carte and Memberships Available
-  body: Book a room or grab a Day Pass without a membership. If you'd like to become
-    a member, see which option works for you.
+  body: Book a room or enjoy a Day Pass without a membership. When you’re ready, discover the membership option that’s right for you
   button_link: https://peachtreecity.launchandgoworkspace.com/
   button_label: See Options
 hero:
   image: "/uploads/office3.jpg"
   subtitle: Peachtree City, Georgia
   heading: The Premier Coworking Space
-  body: We offer professional work spaces to fit your budget, availability & productivity
-    needs.
+  body: Discover professional workspaces at Go Workspace—tailored to your budget, availability, and productivity.
   button_link: https://peachtreecity.launchandgoworkspace.com/calendar
   button_label: Book Now
   hero_footer:
     first_column:
-      heading: Bookable Space
-      body: Book the meeting room for your next client meeting
+      heading: Bookable Spaces
+      body: Take your meetings and content to the next level—book a meeting space or podcast room today.
       small_text: Available by the hour or recurring.
       link: "#bookable"
       link_text: View Room
